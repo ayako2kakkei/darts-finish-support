@@ -28,6 +28,7 @@
     if (labels[value]) return value;
     if (value && value.startsWith('en')) return 'en-GB';
     if (value && value.startsWith('es')) return 'es';
+    if (value && /^pt-(PT|AO|MZ|CV|GW|ST|TL)$/i.test(value)) return 'pt-PT';
     if (value && value.startsWith('pt')) return 'pt-BR';
     if (value && value.startsWith('zh')) return /Hant|TW|HK|MO/i.test(value) ? 'zh-Hant' : 'zh-Hans';
     return null;
