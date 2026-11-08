@@ -17,7 +17,7 @@
     th: ['หน้าแรก', 'ช่วยเหลือ', 'นโยบายความเป็นส่วนตัว', 'เมนู']
   };
   const authorCopy = {
-    "ja": ["作者について", "主にUIデザイナーとして働いています。JAPAN レディースのプロライセンスを取得し、自分がダーツの上がり方を覚えるために欲しかった練習アプリとして Darts Finish を作りました。引き算が苦手。"],
+    "ja": ["作者について", "主にUIデザイナーとして働いています。JAPAN レディースのプロライセンスを取得し、自分がダーツの上がり方を覚えるために欲しかったので、練習アプリとして Darts Finish を作りました。引き算が苦手。"],
     "en-GB": ["About the creator", "She mainly works as a UI designer. She earned a JAPAN Ladies professional darts licence in Japan and built Darts Finish as the practice app she wanted for learning checkouts herself. Subtraction is not her strong suit."],
     "zh-Hans": ["关于作者", "她主要从事 UI 设计工作，已取得日本 JAPAN 女子组的职业飞镖执照。Darts Finish 是她为了学习收镖而制作的练习应用。减法不太拿手。"],
     "zh-Hant": ["關於作者", "她主要從事 UI 設計工作，已取得日本 JAPAN 女子組的職業飛鏢執照。Darts Finish 是她為了學習結鏢而製作的練習 App。不太擅長減法。"],
