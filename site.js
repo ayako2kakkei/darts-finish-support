@@ -1,20 +1,20 @@
 (() => {
   const labels = {
-    ja: ['トップ', 'サポート', 'プライバシー', 'メニュー'],
-    'en-GB': ['Home', 'Support', 'Privacy', 'Menu'],
+    ja: ['トップ', 'サポート', 'プライバシーポリシー', 'メニュー'],
+    'en-GB': ['Home', 'Support', 'Privacy Policy', 'Menu'],
     'zh-Hans': ['首页', '支持', '隐私政策', '菜单'],
     'zh-Hant': ['首頁', '支援', '隱私權政策', '選單'],
-    de: ['Startseite', 'Support', 'Datenschutz', 'Menü'],
-    es: ['Inicio', 'Ayuda', 'Privacidad', 'Menú'],
-    fr: ['Accueil', 'Assistance', 'Confidentialité', 'Menu'],
-    nl: ['Start', 'Ondersteuning', 'Privacy', 'Menu'],
-    it: ['Home', 'Supporto', 'Privacy', 'Menu'],
-    'pt-BR': ['Início', 'Suporte', 'Privacidade', 'Menu'],
-    'pt-PT': ['Início', 'Apoio', 'Privacidade', 'Menu'],
-    pl: ['Strona główna', 'Pomoc', 'Prywatność', 'Menu'],
+    de: ['Startseite', 'Support', 'Datenschutzerklärung', 'Menü'],
+    es: ['Inicio', 'Ayuda', 'Política de privacidad', 'Menú'],
+    fr: ['Accueil', 'Assistance', 'Politique de confidentialité', 'Menu'],
+    nl: ['Start', 'Ondersteuning', 'Privacyverklaring', 'Menu'],
+    it: ['Home', 'Supporto', 'Informativa sulla privacy', 'Menu'],
+    'pt-BR': ['Início', 'Suporte', 'Política de Privacidade', 'Menu'],
+    'pt-PT': ['Início', 'Apoio', 'Política de Privacidade', 'Menu'],
+    pl: ['Strona główna', 'Pomoc', 'Polityka prywatności', 'Menu'],
     ko: ['홈', '지원', '개인정보 처리방침', '메뉴'],
-    vi: ['Trang chủ', 'Hỗ trợ', 'Quyền riêng tư', 'Menu'],
-    th: ['หน้าแรก', 'ช่วยเหลือ', 'ความเป็นส่วนตัว', 'เมนู']
+    vi: ['Trang chủ', 'Hỗ trợ', 'Chính sách quyền riêng tư', 'Menu'],
+    th: ['หน้าแรก', 'ช่วยเหลือ', 'นโยบายความเป็นส่วนตัว', 'เมนู']
   };
   const page = document.body.dataset.page;
   const candidates = [

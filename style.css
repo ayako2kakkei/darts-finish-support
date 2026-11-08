@@ -13,7 +13,9 @@ a:focus-visible,button:focus-visible,select:focus-visible{outline:3px solid var(
 .desktop-nav{display:flex;align-items:center;gap:22px;margin-left:auto;white-space:nowrap}
 .desktop-nav a,.mobile-menu a{text-decoration:none;color:var(--ink);font-weight:600}
 .desktop-nav a:hover,.mobile-menu a:hover,.desktop-nav a[aria-current=page],.mobile-menu a[aria-current=page]{color:var(--accent)}
-.language-select{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:5px 26px 5px 10px;max-width:210px;cursor:pointer}
+.language-select{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:5px 46px 5px 12px;max-width:210px;cursor:pointer;appearance:none;-webkit-appearance:none}
+.desktop-language,.mobile-menu label{position:relative}
+.desktop-language:after,.mobile-menu label:after{content:"";position:absolute;right:18px;top:50%;width:7px;height:7px;border-right:2px solid var(--ink);border-bottom:2px solid var(--ink);transform:translateY(-70%) rotate(45deg);pointer-events:none}
 .desktop-language{margin-left:2px}
 .menu-toggle{display:none;margin-left:auto;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);font-size:1.4rem;line-height:1;padding:10px 13px;cursor:pointer}
 .menu-backdrop{position:fixed;inset:0;background:#0008;z-index:9;border:0;padding:0}
