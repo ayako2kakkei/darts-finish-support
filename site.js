@@ -70,6 +70,11 @@
       ad_user_data: 'denied', ad_personalization: 'denied'
     });
     window.gtag('js', new Date());
+    window.gtag('event', 'page_view', {
+      send_to: 'G-38JWXT48JK',
+      page_title: document.title,
+      page_location: location.origin + location.pathname
+    });
     const script = document.createElement('script');
     script.async = true;
     script.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-M4P7NMKB';
