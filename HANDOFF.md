@@ -18,7 +18,7 @@
 - 作者紹介の末尾にユーザー希望の「引き算が苦手。」を追記し、ほかの14ロケールにも対応する一言を追加。日本語・英語の表示文言をブラウザで確認。JS版クエリを `20261108-7` に更新。
 - 日本語の制作理由をユーザー指定の「自分がダーツの上がり方を覚えるために欲しかったので、練習アプリとして Darts Finish を作りました。」に修正。静的HTMLと切り替え用JSの双方を更新し、JS版クエリを `20261108-8` に更新。
 - 最新の作者紹介は「2026年にJAPAN LADIESのプロライセンスを取得。普段はUIデザイナーとして働いています。自分自身のために、ダーツの上がり方を覚える練習アプリとして Darts Finish を作りました。引き算が苦手。」。全15ロケールの文を同じ情報・順序へ更新し、JAPAN LADIESを英語表記で統一。日本語トップの実表示を確認。JS版クエリを `20261108-9` に更新。
-- App Store Connect の追加ロケール名: イタリア語 `Darts Finish: 501 Chiusure`（サブタイトル `Allenati alle chiusure`）とオランダ語 `Darts Finish: 501 Uitgooien`（サブタイトル `Oefen je dartcheckouts`）はページ再読み込み後に保存済み値を確認し、サイトのトップと各ポリシーに追記。オランダ語の旧候補 `Darts Finish`、`Darts Finish Oefenen`、`Darts Finish Uitgooitrainer`、`Darts Finish: 501 Oefenen` は重複エラーだった。ポルトガル語（ブラジル・ポルトガル）とポーランド語は未着手。掲載名確定後、サイトのトップと個別ポリシーへ追記する。
+- App Store Connect の追加ロケール名: イタリア語 `Darts Finish: 501 Chiusure`、オランダ語 `Darts Finish: 501 Uitgooien`、ポルトガル語（ブラジル）`Darts Finish: Fechamentos`、ポルトガル語（ポルトガル）`Darts Finish: 501 Fechos`、ポーランド語 `Darts Finish`。いずれもページ再読み込み後に保存済み値を確認。アプリ内名と掲載名が異なる4ロケールはサイトのトップと各ポリシーに対応を追記。ポルトガル語（ブラジル）の `Darts Finish`、ポルトガル語（ポルトガル）の `Darts Finish` と `Darts Finish: Fechos` は重複エラーだった。オランダ語の旧候補 `Darts Finish`、`Darts Finish Oefenen`、`Darts Finish Uitgooitrainer`、`Darts Finish: 501 Oefenen` も重複エラーだった。
 
 ## 2026-11-06 Issue #1
 - 公開元: ayako2kakkei/darts-finish-support、GitHub Pages。
