@@ -77,6 +77,8 @@
   function show(locale) {
     const chosen = resolve(locale) || 'ja';
     document.documentElement.lang = chosen;
+    document.querySelector('[data-author-name]').textContent = ['ja', 'zh-Hans', 'zh-Hant'].includes(chosen)
+      ? '片岡 彩子（Ayako Kataoka）' : 'Ayako Kataoka';
     document.querySelector('[data-author-title]').textContent = authorCopy[chosen][0];
     document.querySelector('[data-author-bio]').textContent = authorCopy[chosen][1];
     document.querySelectorAll('[data-locale-section]').forEach(section => {
