@@ -17,21 +17,21 @@
     th: ['หน้าแรก', 'ช่วยเหลือ', 'นโยบายความเป็นส่วนตัว', 'เมนู']
   };
   const authorCopy = {
-    "ja": ["作者について", "主にUIデザイナーとして働いています。JAPAN レディースのプロライセンスを取得し、自分がダーツの上がり方を覚えるために欲しかったので、練習アプリとして Darts Finish を作りました。引き算が苦手。"],
-    "en-GB": ["About the creator", "She mainly works as a UI designer. She earned a JAPAN Ladies professional darts licence in Japan and built Darts Finish as the practice app she wanted for learning checkouts herself. Subtraction is not her strong suit."],
-    "zh-Hans": ["关于作者", "她主要从事 UI 设计工作，已取得日本 JAPAN 女子组的职业飞镖执照。Darts Finish 是她为了学习收镖而制作的练习应用。减法不太拿手。"],
-    "zh-Hant": ["關於作者", "她主要從事 UI 設計工作，已取得日本 JAPAN 女子組的職業飛鏢執照。Darts Finish 是她為了學習結鏢而製作的練習 App。不太擅長減法。"],
-    "de": ["Über die Entwicklerin", "Sie arbeitet hauptsächlich als UI-Designerin. Sie hat die Profi-Lizenz der JAPAN Ladies im Darts erworben und Darts Finish entwickelt, weil sie selbst eine App zum Üben von Checkouts wollte. Kopfrechnen mit Minus fällt ihr schwer."],
-    "es": ["Sobre la creadora", "Trabaja principalmente como diseñadora de interfaces. Obtuvo en Japón la licencia profesional de dardos JAPAN Ladies y creó Darts Finish porque quería una app para aprender a cerrar partidas. Las restas no se le dan muy bien."],
-    "fr": ["À propos de la créatrice", "Elle travaille principalement comme designer d’interfaces. Elle a obtenu au Japon la licence professionnelle de fléchettes JAPAN Ladies et a créé Darts Finish parce qu’elle voulait une app pour apprendre les finitions. Les soustractions, ce n’est pas son fort."],
-    "nl": ["Over de maker", "Ze werkt vooral als UI-ontwerper. Ze behaalde in Japan de professionele dartslicentie van JAPAN Ladies en maakte Darts Finish omdat ze zelf een app wilde om checkouts te leren. Aftrekken is niet haar sterkste punt."],
-    "it": ["Chi ha creato l’app", "Lavora principalmente come UI designer. Ha ottenuto in Giappone la licenza professionistica JAPAN Ladies di freccette e ha creato Darts Finish perché voleva un’app per imparare le chiusure. Le sottrazioni non sono il suo forte."],
-    "pt-BR": ["Sobre a criadora", "Trabalha principalmente como designer de interfaces. Obteve no Japão a licença profissional de dardos JAPAN Ladies e criou o Darts Finish porque queria um app para aprender a fechar partidas. Subtração não é o seu forte."],
-    "pt-PT": ["Sobre a criadora", "Trabalha sobretudo como designer de interfaces. Obteve no Japão a licença profissional de dardos JAPAN Ladies e criou o Darts Finish porque queria uma aplicação para aprender a fechar partidas. As subtrações não são o seu forte."],
-    "pl": ["O autorce", "Na co dzień pracuje głównie jako projektantka interfejsów. Zdobyła w Japonii licencję zawodową JAPAN Ladies w darcie i stworzyła Darts Finish, bo sama chciała aplikacji do nauki kończenia lega. Odejmowanie nie jest jej mocną stroną."],
-    "ko": ["제작자 소개", "주로 UI 디자이너로 일합니다. 일본 JAPAN 레이디스 프로 다트 라이선스를 취득했으며, 직접 체크아웃을 익힐 때 필요했던 연습 앱으로 Darts Finish를 만들었습니다.뺄셈은 좀 약합니다."],
-    "vi": ["Về người sáng tạo", "Công việc chính của cô là thiết kế giao diện. Cô đã nhận giấy phép thi đấu darts chuyên nghiệp JAPAN Ladies tại Nhật Bản và tạo Darts Finish vì chính cô muốn có một ứng dụng để luyện cách kết thúc ván. Cô không giỏi phép trừ."],
-    "th": ["เกี่ยวกับผู้สร้าง", "ทำงานหลักด้านการออกแบบ UI ได้รับใบอนุญาตนักปาลูกดอกอาชีพ JAPAN Ladies ในญี่ปุ่น และสร้าง Darts Finish เพราะอยากมีแอปสำหรับฝึกปิดเกมด้วยตัวเองแต่ไม่ถนัดการลบเลข"]
+    "ja": ["作者について", "2026年にJAPAN LADIESのプロライセンスを取得。普段はUIデザイナーとして働いています。自分自身のために、ダーツの上がり方を覚える練習アプリとして Darts Finish を作りました。引き算が苦手。"],
+    "en-GB": ["About the creator", "In 2026, she earned a JAPAN LADIES professional darts licence. She usually works as a UI designer. She built Darts Finish for herself as a practice app to learn how to finish in darts. Subtraction is not her strong suit."],
+    "zh-Hans": ["关于作者", "她于 2026 年取得 JAPAN LADIES 职业飞镖执照，平时从事 UI 设计工作。她为自己制作了 Darts Finish，用来练习记住飞镖收镖路线。减法不太拿手。"],
+    "zh-Hant": ["關於作者", "她於 2026 年取得 JAPAN LADIES 職業飛鏢執照，平時從事 UI 設計工作。她為自己製作了 Darts Finish，用來練習記住飛鏢結鏢路線。不太擅長減法。"],
+    "de": ["Über die Entwicklerin", "2026 erwarb sie die Profi-Lizenz von JAPAN LADIES. Im Alltag arbeitet sie als UI-Designerin. Sie entwickelte Darts Finish für sich selbst als Übungsapp, um sich Checkout-Wege beim Darts einzuprägen. Kopfrechnen mit Minus fällt ihr schwer."],
+    "es": ["Sobre la creadora", "En 2026 obtuvo la licencia profesional de dardos JAPAN LADIES. Normalmente trabaja como diseñadora de interfaces. Creó Darts Finish para sí misma como app de práctica para memorizar los cierres. Las restas no se le dan muy bien."],
+    "fr": ["À propos de la créatrice", "En 2026, elle a obtenu la licence professionnelle de fléchettes JAPAN LADIES. Elle travaille habituellement comme designer d’interfaces. Elle a créé Darts Finish pour elle-même, afin de s’entraîner à mémoriser les finitions. Les soustractions, ce n’est pas son fort."],
+    "nl": ["Over de maker", "In 2026 behaalde ze de professionele dartslicentie van JAPAN LADIES. Doorgaans werkt ze als UI-ontwerper. Ze maakte Darts Finish voor zichzelf als oefenapp om checkouts te leren onthouden. Aftrekken is niet haar sterkste punt."],
+    "it": ["Chi ha creato l’app", "Nel 2026 ha ottenuto la licenza professionistica di freccette JAPAN LADIES. Di solito lavora come UI designer. Ha creato Darts Finish per sé come app di allenamento per memorizzare le chiusure. Le sottrazioni non sono il suo forte."],
+    "pt-BR": ["Sobre a criadora", "Em 2026, obteve a licença profissional de dardos JAPAN LADIES. No dia a dia, trabalha como designer de interfaces. Criou o Darts Finish para si mesma como app de treino para memorizar os fechamentos. Subtração não é o seu forte."],
+    "pt-PT": ["Sobre a criadora", "Em 2026, obteve a licença profissional de dardos JAPAN LADIES. No dia a dia, trabalha como designer de interfaces. Criou o Darts Finish para si própria como aplicação de treino para memorizar os fechos. As subtrações não são o seu forte."],
+    "pl": ["O autorce", "W 2026 roku zdobyła licencję zawodową JAPAN LADIES w darcie. Na co dzień pracuje jako projektantka interfejsów. Stworzyła Darts Finish dla siebie jako aplikację do ćwiczenia i zapamiętywania sposobów kończenia lega. Odejmowanie nie jest jej mocną stroną."],
+    "ko": ["제작자 소개", "2026년에 JAPAN LADIES 프로 다트 라이선스를 취득했습니다. 평소에는 UI 디자이너로 일합니다. 자신이 다트 체크아웃 방법을 익히기 위한 연습 앱으로 Darts Finish를 만들었습니다. 뺄셈은 좀 약합니다."],
+    "vi": ["Về người sáng tạo", "Năm 2026, cô nhận giấy phép thi đấu darts chuyên nghiệp JAPAN LADIES. Công việc thường ngày của cô là thiết kế giao diện. Cô tạo Darts Finish cho chính mình như một ứng dụng luyện tập để ghi nhớ cách kết thúc ván darts. Cô không giỏi phép trừ."],
+    "th": ["เกี่ยวกับผู้สร้าง", "ได้รับใบอนุญาตนักปาลูกดอกอาชีพ JAPAN LADIES ในปี 2026 ปกติทำงานเป็นนักออกแบบ UI และสร้าง Darts Finish ให้ตัวเองเพื่อฝึกจำวิธีปิดเกมปาลูกดอก แต่ไม่ถนัดการลบเลข"]
   };
   const page = document.body.dataset.page;
   const candidates = [
