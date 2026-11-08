@@ -71,6 +71,12 @@
     });
     window.gtag('js', new Date());
     window.gtag('config', 'G-38JWXT48JK', {
+      send_page_view: false,
+      page_title: document.title,
+      page_location: location.origin + location.pathname
+    });
+    window.gtag('event', 'page_view', {
+      send_to: 'G-38JWXT48JK',
       page_title: document.title,
       page_location: location.origin + location.pathname
     });
