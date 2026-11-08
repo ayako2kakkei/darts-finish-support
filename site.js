@@ -16,12 +16,22 @@
     vi: ['Trang chủ', 'Hỗ trợ', 'Chính sách quyền riêng tư', 'Menu'],
     th: ['หน้าแรก', 'ช่วยเหลือ', 'นโยบายความเป็นส่วนตัว', 'เมนู']
   };
-  const creditLabels = {
-    ja: '制作', 'en-GB': 'Created by', 'zh-Hans': '制作', 'zh-Hant': '製作',
-    de: 'Entwickelt von', es: 'Creado por', fr: 'Créé par',
-    nl: 'Gemaakt door', it: 'Creato da', 'pt-BR': 'Criado por',
-    'pt-PT': 'Criado por', pl: 'Stworzone przez', ko: '제작',
-    vi: 'Được tạo bởi', th: 'สร้างโดย'
+  const authorCopy = {
+    "ja": ["作者について", "主にUIデザイナーとして働いています。JAPAN レディースのプロライセンスを取得し、自分がダーツの上がり方を覚えるために欲しかった練習アプリとして Darts Finish を作りました。"],
+    "en-GB": ["About the creator", "She mainly works as a UI designer. She earned a JAPAN Ladies professional darts licence in Japan and built Darts Finish as the practice app she wanted for learning checkouts herself."],
+    "zh-Hans": ["关于作者", "她主要从事 UI 设计工作，已取得日本 JAPAN 女子组的职业飞镖执照。Darts Finish 是她为了学习收镖而制作的练习应用。"],
+    "zh-Hant": ["關於作者", "她主要從事 UI 設計工作，已取得日本 JAPAN 女子組的職業飛鏢執照。Darts Finish 是她為了學習結鏢而製作的練習 App。"],
+    "de": ["Über die Entwicklerin", "Sie arbeitet hauptsächlich als UI-Designerin. Sie hat die Profi-Lizenz der JAPAN Ladies im Darts erworben und Darts Finish entwickelt, weil sie selbst eine App zum Üben von Checkouts wollte."],
+    "es": ["Sobre la creadora", "Trabaja principalmente como diseñadora de interfaces. Obtuvo en Japón la licencia profesional de dardos JAPAN Ladies y creó Darts Finish porque quería una app para aprender a cerrar partidas."],
+    "fr": ["À propos de la créatrice", "Elle travaille principalement comme designer d’interfaces. Elle a obtenu au Japon la licence professionnelle de fléchettes JAPAN Ladies et a créé Darts Finish parce qu’elle voulait une app pour apprendre les finitions."],
+    "nl": ["Over de maker", "Ze werkt vooral als UI-ontwerper. Ze behaalde in Japan de professionele dartslicentie van JAPAN Ladies en maakte Darts Finish omdat ze zelf een app wilde om checkouts te leren."],
+    "it": ["Chi ha creato l’app", "Lavora principalmente come UI designer. Ha ottenuto in Giappone la licenza professionistica JAPAN Ladies di freccette e ha creato Darts Finish perché voleva un’app per imparare le chiusure."],
+    "pt-BR": ["Sobre a criadora", "Trabalha principalmente como designer de interfaces. Obteve no Japão a licença profissional de dardos JAPAN Ladies e criou o Darts Finish porque queria um app para aprender a fechar partidas."],
+    "pt-PT": ["Sobre a criadora", "Trabalha sobretudo como designer de interfaces. Obteve no Japão a licença profissional de dardos JAPAN Ladies e criou o Darts Finish porque queria uma aplicação para aprender a fechar partidas."],
+    "pl": ["O autorce", "Na co dzień pracuje głównie jako projektantka interfejsów. Zdobyła w Japonii licencję zawodową JAPAN Ladies w darcie i stworzyła Darts Finish, bo sama chciała aplikacji do nauki kończenia lega."],
+    "ko": ["제작자 소개", "주로 UI 디자이너로 일합니다. 일본 JAPAN 레이디스 프로 다트 라이선스를 취득했으며, 직접 체크아웃을 익힐 때 필요했던 연습 앱으로 Darts Finish를 만들었습니다."],
+    "vi": ["Về người sáng tạo", "Công việc chính của cô là thiết kế giao diện. Cô đã nhận giấy phép thi đấu darts chuyên nghiệp JAPAN Ladies tại Nhật Bản và tạo Darts Finish vì chính cô muốn có một ứng dụng để luyện cách kết thúc ván."],
+    "th": ["เกี่ยวกับผู้สร้าง", "ทำงานหลักด้านการออกแบบ UI ได้รับใบอนุญาตนักปาลูกดอกอาชีพ JAPAN Ladies ในญี่ปุ่น และสร้าง Darts Finish เพราะอยากมีแอปสำหรับฝึกปิดเกมด้วยตัวเอง"]
   };
   const page = document.body.dataset.page;
   const candidates = [
@@ -67,7 +77,8 @@
   function show(locale) {
     const chosen = resolve(locale) || 'ja';
     document.documentElement.lang = chosen;
-    document.querySelector('[data-credit-label]').textContent = creditLabels[chosen];
+    document.querySelector('[data-author-title]').textContent = authorCopy[chosen][0];
+    document.querySelector('[data-author-bio]').textContent = authorCopy[chosen][1];
     document.querySelectorAll('[data-locale-section]').forEach(section => {
       section.hidden = section.dataset.localeSection !== chosen;
     });
