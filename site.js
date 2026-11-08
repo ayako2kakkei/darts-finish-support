@@ -16,6 +16,13 @@
     vi: ['Trang chủ', 'Hỗ trợ', 'Chính sách quyền riêng tư', 'Menu'],
     th: ['หน้าแรก', 'ช่วยเหลือ', 'นโยบายความเป็นส่วนตัว', 'เมนู']
   };
+  const creditLabels = {
+    ja: '制作', 'en-GB': 'Created by', 'zh-Hans': '制作', 'zh-Hant': '製作',
+    de: 'Entwickelt von', es: 'Creado por', fr: 'Créé par',
+    nl: 'Gemaakt door', it: 'Creato da', 'pt-BR': 'Criado por',
+    'pt-PT': 'Criado por', pl: 'Stworzone przez', ko: '제작',
+    vi: 'Được tạo bởi', th: 'สร้างโดย'
+  };
   const page = document.body.dataset.page;
   const candidates = [
     page === 'support' ? location.hash.slice(1) : null,
@@ -60,6 +67,7 @@
   function show(locale) {
     const chosen = resolve(locale) || 'ja';
     document.documentElement.lang = chosen;
+    document.querySelector('[data-credit-label]').textContent = creditLabels[chosen];
     document.querySelectorAll('[data-locale-section]').forEach(section => {
       section.hidden = section.dataset.localeSection !== chosen;
     });
