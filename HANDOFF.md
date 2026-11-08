@@ -11,6 +11,7 @@
 - ただし Tag Assistant は GA4 タグ `G-38JWXT48JK` の発火を1回検出した一方で「送信されたヒットはありません」と表示し、GA4リアルタイムも0だった。Issue #7 を再開。Googleのページビュー手動送信手順に従い、同意後に `page_view` を `send_to` 付きでキューに追加し、URLはクエリを除いたものを送る。`site.js` のキャッシュ版も更新。次: 検証して追加PR・再公開後、Tag Assistant とGA4リアルタイムでヒット確認。
 - PR #9 もCI成功後にマージし、XServerへ19ファイルを再公開してSHA-256一致を確認。しかし Tag Assistant の送信ヒットは依然0件。Google公式の設置手順ではページ内の `gtag('config')` は `gtag/js?id=G-...` と組み合わせる形式をサポートすると確認。`gtm.js?id=GTM-...` を置き換え、GA4測定IDで `config` してページビューを送る修正を準備。次: CI、公開、受信確認。
 - PR #10 もCI成功後にマージし、XServerへ19ファイルを公開してSHA-256一致を確認。Tag Assistant の新規セッションでは直接設置した `G-38JWXT48JK` の Config と `analytics_storage` 付与を確認したが、送信ヒット0件、GA4リアルタイム0件。Issue #7 を再開。次は同じGA4測定IDの直接タグで `send_page_view:false` を設定し、明示的な `page_view` を一度送る。18ページのJS版を `20261109-4` に更新済み。静的チェックは18ページ・15ロケール、JS構文、差分空白をすべて通過。次: 追加PR、CI、XServer公開、Tag Assistant送信ヒットとGA4リアルタイム確認。
+- PR #11 はCI成功後にマージ。19ファイルをXServerにアップロードし、公開URLで全19件 HTTP 200・SHA-256一致。GA4側の拡張計測はページビューだけオン、ほかの6種類と履歴変更時のページビューをオフに保存。Googleタグが自動移行されたGTMコンテナのライブ版が空だったため、GA4タグ `G-38JWXT48JK` を含むバージョン2を公開した。公開サイトへ同意したシークレットChromeのNetworkで `en=page_view` の `www.google-analytics.com/g/collect` が HTTP 204 を返し、GA4リアルタイムでアクティブユーザー1、`page_view` 1件を確認。検証用シークレットウィンドウは閉じ、通常Chromeの一時的な同意は拒否状態へ戻した。サイト閲覧計測の受信確認は完了。iOSアプリ内計測は対象外。
 
 ## 2026-11-08 Issue #5 共通ヘッダーと言語切り替え
 
