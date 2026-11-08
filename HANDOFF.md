@@ -18,7 +18,7 @@
 - 作者紹介の末尾にユーザー希望の「引き算が苦手。」を追記し、ほかの14ロケールにも対応する一言を追加。日本語・英語の表示文言をブラウザで確認。JS版クエリを `20261108-7` に更新。
 - 日本語の制作理由をユーザー指定の「自分がダーツの上がり方を覚えるために欲しかったので、練習アプリとして Darts Finish を作りました。」に修正。静的HTMLと切り替え用JSの双方を更新し、JS版クエリを `20261108-8` に更新。
 - 最新の作者紹介は「2026年にJAPAN LADIESのプロライセンスを取得。普段はUIデザイナーとして働いています。自分自身のために、ダーツの上がり方を覚える練習アプリとして Darts Finish を作りました。引き算が苦手。」。全15ロケールの文を同じ情報・順序へ更新し、JAPAN LADIESを英語表記で統一。日本語トップの実表示を確認。JS版クエリを `20261108-9` に更新。
-- App Store Connect の追加ロケール名は未確定。オランダ語 `Darts Finish`、`Darts Finish Oefenen`、`Darts Finish Uitgooitrainer` を試すと重複エラー。イタリア語も `Darts Finish`、`Darts Finish Chiusure` を試すと重複エラー。最後にオランダ語 `Darts Finish: 501 Oefenen`、イタリア語 `Darts Finish: 501 Chiusure` を入力・保存したが、画面に別ロケールの重複エラーが交互に残り、永続化は確認できていない。直近のUI操作はタイムアウトしたため、再開時に両ロケールの保存済み値を再確認する。ポルトガル語（ブラジル・ポルトガル）とポーランド語は未着手。掲載名確定後、サイトのトップと個別ポリシーへ追記する。
+- App Store Connect の追加ロケール名: イタリア語 `Darts Finish: 501 Chiusure` とサブタイトル `Allenati alle chiusure` は画面を離れて戻った後も保存済みであることを確認し、サイトのトップとポリシーに掲載名を追記。オランダ語は `Darts Finish`、`Darts Finish Oefenen`、`Darts Finish Uitgooitrainer`、`Darts Finish: 501 Oefenen` を試したが重複エラーで未登録。ポルトガル語（ブラジル・ポルトガル）とポーランド語は未着手。掲載名確定後、サイトのトップと個別ポリシーへ追記する。
 
 ## 2026-11-06 Issue #1
 - 公開元: ayako2kakkei/darts-finish-support、GitHub Pages。
