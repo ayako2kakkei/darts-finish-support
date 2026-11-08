@@ -19,6 +19,7 @@
 - 日本語の制作理由をユーザー指定の「自分がダーツの上がり方を覚えるために欲しかったので、練習アプリとして Darts Finish を作りました。」に修正。静的HTMLと切り替え用JSの双方を更新し、JS版クエリを `20261108-8` に更新。
 - 最新の作者紹介は「2026年にJAPAN LADIESのプロライセンスを取得。普段はUIデザイナーとして働いています。自分自身のために、ダーツの上がり方を覚える練習アプリとして Darts Finish を作りました。引き算が苦手。」。全15ロケールの文を同じ情報・順序へ更新し、JAPAN LADIESを英語表記で統一。日本語トップの実表示を確認。JS版クエリを `20261108-9` に更新。
 - App Store Connect の追加ロケール名: イタリア語 `Darts Finish: 501 Chiusure`、オランダ語 `Darts Finish: 501 Uitgooien`、ポルトガル語（ブラジル）`Darts Finish: Fechamentos`、ポルトガル語（ポルトガル）`Darts Finish: 501 Fechos`、ポーランド語 `Darts Finish`。いずれもページ再読み込み後に保存済み値を確認。アプリ内名と掲載名が異なる4ロケールはサイトのトップと各ポリシーに対応を追記。ポルトガル語（ブラジル）の `Darts Finish`、ポルトガル語（ポルトガル）の `Darts Finish` と `Darts Finish: Fechos` は重複エラーだった。オランダ語の旧候補 `Darts Finish`、`Darts Finish Oefenen`、`Darts Finish Uitgooitrainer`、`Darts Finish: 501 Oefenen` も重複エラーだった。
+- 2026-11-08 23:22 JST、commit `3735d49` の公開用22ファイルを XServer の `/dartsfinish.com/public_html` にアップロード。`.htaccess`、`.user.ini`、`default_page.png` は保持。公開 URL から22ファイルすべて HTTP 200 と SHA-256 のアップロード元一致を確認。公開トップの日本語表示、ポルトガル語（ポルトガル）への切り替え、同言語のポリシー・サポートへの導線と掲載名の説明をブラウザで確認。次は PR #6 の CI を再確認して統合し、Issue #5 を閉じる。
 
 ## 2026-11-06 Issue #1
 - 公開元: ayako2kakkei/darts-finish-support、GitHub Pages。
