@@ -42,3 +42,4 @@ hr{border:0;border-top:1px solid var(--line);margin:48px 0}
 @media(max-width:900px){.header-inner{min-height:72px;padding:10px 16px}.brand img{width:154px}.desktop-nav,.desktop-language{display:none}.menu-toggle{display:block}main{padding:30px 18px 64px}}
 @media(max-width:360px){.brand img{width:132px}}
 @media(max-width:480px){.analytics-banner{left:10px;right:10px;bottom:10px;padding:14px 16px}.analytics-actions{flex-wrap:wrap}.analytics-actions button{flex:1}}
+[data-author-bio]{white-space:pre-line}
