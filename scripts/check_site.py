@@ -1,5 +1,8 @@
 """Check that every published language page has working local navigation."""
 
+import html
+import json
+import re
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -31,7 +34,16 @@ class Page(HTMLParser):
             self.assets.append(values.get('src') or values.get('srcset'))
 
 
+def author_bios():
+    """Return the author bio per locale from site.js."""
+    script = (ROOT / 'site.js').read_text(encoding='utf-8')
+    found = re.findall(r'\n    "([\w-]+)": \["[^"]*", "([^"]*)"\]', script)
+    return {locale: json.loads(f'"{text}"') for locale, text in found}
+
+
 def main():
+    bios = author_bios()
+    assert set(bios) == set(LOCALES), sorted(bios)
     files = [ROOT / name for name in ('index.html', 'support.html', 'privacy.html')]
     files += [ROOT / f'privacy-{locale}.html' for locale in LOCALES]
     for file in files:
@@ -45,6 +57,10 @@ def main():
                 continue
             assert (ROOT / urlsplit(target).path).exists(), (file.name, target)
         assert 'site.js' in file.read_text(encoding='utf-8'), file
+        # The static footer bio must match site.js for the page's own locale.
+        locale = file.stem.removeprefix('privacy-') if file.stem.startswith('privacy-') else 'ja'
+        static = re.search(r'data-author-bio>([^<]*)', file.read_text(encoding='utf-8'))
+        assert static and html.unescape(static.group(1)) == bios[locale], (file.name, 'author bio differs from site.js')
     print(f'Checked {len(files)} pages and {len(LOCALES)} locales')
 
 
