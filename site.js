@@ -17,21 +17,21 @@
     th: ['หน้าแรก', 'ช่วยเหลือ', 'นโยบายความเป็นส่วนตัว', 'เมนู']
   };
   const analyticsCopy = {
-    ja: ['このサイトの閲覧数を把握するため、同意した場合だけ Google Analytics を使用します。', '同意する', '同意しない', '分析の設定'],
-    'en-GB': ['We use Google Analytics to measure visits to this website only if you agree.', 'Agree', 'Decline', 'Analytics settings'],
-    'zh-Hans': ['仅在你同意后，我们才使用 Google Analytics 统计本网站的访问量。', '同意', '不同意', '分析设置'],
-    'zh-Hant': ['只有在你同意後，我們才使用 Google Analytics 統計本網站的瀏覽量。', '同意', '不同意', '分析設定'],
-    de: ['Wir verwenden Google Analytics zur Messung der Website-Besuche nur mit deiner Einwilligung.', 'Zustimmen', 'Ablehnen', 'Analyse-Einstellungen'],
-    es: ['Solo si aceptas, usamos Google Analytics para medir las visitas a este sitio web.', 'Aceptar', 'Rechazar', 'Ajustes de análisis'],
-    fr: ['Nous utilisons Google Analytics pour mesurer les visites de ce site uniquement avec votre accord.', 'Accepter', 'Refuser', 'Paramètres d’analyse'],
-    nl: ['We gebruiken Google Analytics alleen met jouw toestemming om websitebezoeken te meten.', 'Toestaan', 'Weigeren', 'Analyse-instellingen'],
-    it: ['Usiamo Google Analytics per misurare le visite al sito solo con il tuo consenso.', 'Accetta', 'Rifiuta', 'Impostazioni analisi'],
-    'pt-BR': ['Usamos o Google Analytics para medir as visitas a este site somente com seu consentimento.', 'Aceitar', 'Recusar', 'Configurações de análise'],
-    'pt-PT': ['Usamos o Google Analytics para medir as visitas a este site apenas com o teu consentimento.', 'Aceitar', 'Recusar', 'Definições de análise'],
-    pl: ['Używamy Google Analytics do pomiaru odwiedzin strony tylko za Twoją zgodą.', 'Zgadzam się', 'Odmawiam', 'Ustawienia analityki'],
-    ko: ['동의한 경우에만 Google Analytics로 이 웹사이트의 방문 수를 측정합니다.', '동의', '거부', '분석 설정'],
-    vi: ['Chúng tôi chỉ dùng Google Analytics để đo lượt truy cập trang web khi bạn đồng ý.', 'Đồng ý', 'Từ chối', 'Cài đặt phân tích'],
-    th: ['เราใช้ Google Analytics วัดจำนวนผู้เข้าชมเว็บไซต์นี้เมื่อคุณยินยอมเท่านั้น', 'ยินยอม', 'ไม่ยินยอม', 'การตั้งค่าการวิเคราะห์']
+    ja: ['このサイトの閲覧数を把握するため、同意した場合だけ Google Analytics を使用します。', '同意する', '同意しない', 'Cookieの設定'],
+    'en-GB': ['We use Google Analytics to measure visits to this website only if you agree.', 'Agree', 'Decline', 'Cookie settings'],
+    'zh-Hans': ['仅在你同意后，我们才使用 Google Analytics 统计本网站的访问量。', '同意', '不同意', 'Cookie 设置'],
+    'zh-Hant': ['只有在你同意後，我們才使用 Google Analytics 統計本網站的瀏覽量。', '同意', '不同意', 'Cookie 設定'],
+    de: ['Wir verwenden Google Analytics zur Messung der Website-Besuche nur mit deiner Einwilligung.', 'Zustimmen', 'Ablehnen', 'Cookie-Einstellungen'],
+    es: ['Solo si aceptas, usamos Google Analytics para medir las visitas a este sitio web.', 'Aceptar', 'Rechazar', 'Ajustes de cookies'],
+    fr: ['Nous utilisons Google Analytics pour mesurer les visites de ce site uniquement avec votre accord.', 'Accepter', 'Refuser', 'Paramètres des cookies'],
+    nl: ['We gebruiken Google Analytics alleen met jouw toestemming om websitebezoeken te meten.', 'Toestaan', 'Weigeren', 'Cookie-instellingen'],
+    it: ['Usiamo Google Analytics per misurare le visite al sito solo con il tuo consenso.', 'Accetta', 'Rifiuta', 'Impostazioni cookie'],
+    'pt-BR': ['Usamos o Google Analytics para medir as visitas a este site somente com seu consentimento.', 'Aceitar', 'Recusar', 'Configurações de cookies'],
+    'pt-PT': ['Usamos o Google Analytics para medir as visitas a este site apenas com o teu consentimento.', 'Aceitar', 'Recusar', 'Definições de cookies'],
+    pl: ['Używamy Google Analytics do pomiaru odwiedzin strony tylko za Twoją zgodą.', 'Zgadzam się', 'Odmawiam', 'Ustawienia plików cookie'],
+    ko: ['동의한 경우에만 Google Analytics로 이 웹사이트의 방문 수를 측정합니다.', '동의', '거부', '쿠키 설정'],
+    vi: ['Chúng tôi chỉ dùng Google Analytics để đo lượt truy cập trang web khi bạn đồng ý.', 'Đồng ý', 'Từ chối', 'Cài đặt cookie'],
+    th: ['เราใช้ Google Analytics วัดจำนวนผู้เข้าชมเว็บไซต์นี้เมื่อคุณยินยอมเท่านั้น', 'ยินยอม', 'ไม่ยินยอม', 'การตั้งค่าคุกกี้']
   };
   const authorCopy = {
     "ja": ["作者について", "2026年にJAPAN LADIESのプロライセンスを取得。普段はUIデザイナーとして働いています。自分自身のために、ダーツの上がり方を覚える練習アプリとして Darts Finish を作りました。引き算が苦手。"],
@@ -91,7 +91,7 @@
     consentUi.message.textContent = copy[0];
     consentUi.accept.textContent = copy[1];
     consentUi.decline.textContent = copy[2];
-    consentUi.settings.textContent = copy[3];
+    consentUi.settings.forEach(button => { button.textContent = copy[3]; });
     consentUi.policy.textContent = labels[locale][2];
     consentUi.policy.href = `privacy-${locale}.html`;
   }
@@ -167,11 +167,7 @@
 
   const initial = candidates.map(resolve).find(Boolean) || 'ja';
   show(initial);
-  const footer = document.querySelector('.footer-inner');
-  const settings = document.createElement('button');
-  settings.type = 'button';
-  settings.className = 'analytics-settings';
-  footer.append(settings);
+  const settings = document.querySelectorAll('[data-cookie-settings]');
   const banner = document.createElement('aside');
   banner.className = 'analytics-banner';
   banner.setAttribute('aria-label', 'Analytics consent');
@@ -189,7 +185,7 @@
   document.body.append(banner);
   consentUi = { settings, banner, message, policy, decline, accept };
   updateConsentCopy(initial);
-  settings.addEventListener('click', () => { banner.hidden = false; decline.focus(); });
+  settings.forEach(button => button.addEventListener('click', () => { closeMenu(); banner.hidden = false; decline.focus(); }));
   decline.addEventListener('click', () => {
     const wasAccepted = getPreference() === 'accepted' || tagLoaded;
     savePreference('denied');
