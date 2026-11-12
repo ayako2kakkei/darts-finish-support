@@ -33,23 +33,6 @@
     vi: ['Chúng tôi chỉ dùng Google Analytics để đo lượt truy cập trang web khi bạn đồng ý.', 'Đồng ý', 'Từ chối', 'Cài đặt cookie'],
     th: ['เราใช้ Google Analytics วัดจำนวนผู้เข้าชมเว็บไซต์นี้เมื่อคุณยินยอมเท่านั้น', 'ยินยอม', 'ไม่ยินยอม', 'การตั้งค่าคุกกี้']
   };
-  const authorCopy = {
-    "ja": ["作者について", "2026年に🎯JAPAN LADIESのライセンスを取得した、UIデザイナーです。\nダーツのアレンジを覚えるために、アプリ「Darts Finish」を作りました。"],
-    "en-GB": ["About the creator", "In 2026, she earned a 🎯JAPAN LADIES licence. She is a UI designer.\nShe made the app “Darts Finish” to learn darts checkout routes."],
-    "zh-Hans": ["关于作者", "2026 年取得了 🎯JAPAN LADIES 执照的 UI 设计师。\n为了记住飞镖的收镖路线，她制作了应用「Darts Finish」。"],
-    "zh-Hant": ["關於作者", "2026 年取得了 🎯JAPAN LADIES 執照的 UI 設計師。\n為了記住飛鏢的結鏢路線，她製作了 App「Darts Finish」。"],
-    "de": ["Über die Entwicklerin", "2026 erwarb sie die Lizenz von 🎯JAPAN LADIES. Sie ist UI-Designerin.\nUm sich Checkout-Wege beim Darts einzuprägen, entwickelte sie die App „Darts Finish“."],
-    "es": ["Sobre la creadora", "En 2026 obtuvo la licencia 🎯JAPAN LADIES. Es diseñadora de interfaces.\nCreó la app «Darts Finish» para aprender las rutas de cierre en los dardos."],
-    "fr": ["À propos de la créatrice", "En 2026, elle a obtenu la licence 🎯JAPAN LADIES. Elle est designer d’interfaces.\nElle a créé l’app « Darts Finish » pour apprendre les routes de finition aux fléchettes."],
-    "nl": ["Over de maker", "In 2026 behaalde ze de 🎯JAPAN LADIES-licentie. Ze is UI-ontwerper.\nZe maakte de app ‘Darts Finish’ om checkoutroutes te leren onthouden."],
-    "it": ["Chi ha creato l’app", "Nel 2026 ha ottenuto la licenza 🎯JAPAN LADIES. È una UI designer.\nHa creato l’app «Darts Finish» per imparare i percorsi di chiusura nelle freccette."],
-    "pt-BR": ["Sobre a criadora", "Em 2026, obteve a licença 🎯JAPAN LADIES. É designer de interfaces.\nCriou o app “Darts Finish” para aprender as rotas de fechamento no dardo."],
-    "pt-PT": ["Sobre a criadora", "Em 2026, obteve a licença 🎯JAPAN LADIES. É designer de interfaces.\nCriou a aplicação “Darts Finish” para aprender as rotas de fecho nos dardos."],
-    "pl": ["O autorce", "W 2026 roku zdobyła licencję 🎯JAPAN LADIES. Jest projektantką interfejsów.\nStworzyła aplikację „Darts Finish”, aby nauczyć się dróg kończenia lega."],
-    "ko": ["제작자 소개", "2026년에 🎯JAPAN LADIES 라이선스를 취득한 UI 디자이너입니다.\n다트 체크아웃 루트를 익히기 위해 앱 'Darts Finish'를 만들었습니다."],
-    "vi": ["Về người sáng tạo", "Năm 2026, cô nhận giấy phép 🎯JAPAN LADIES. Cô là nhà thiết kế giao diện (UI).\nCô tạo ứng dụng “Darts Finish” để ghi nhớ các đường kết thúc ván darts."],
-    "th": ["เกี่ยวกับผู้สร้าง", "ได้รับใบอนุญาต 🎯JAPAN LADIES ในปี 2026 เป็นนักออกแบบ UI\nสร้างแอป “Darts Finish” เพื่อฝึกจำเส้นทางปิดเกมปาลูกดอก"]
-  };
   const page = document.body.dataset.page;
   const preferenceKey = 'dartsfinish-site-analytics-consent';
   let consentUi;
@@ -138,10 +121,6 @@
   function show(locale) {
     const chosen = resolve(locale) || 'ja';
     document.documentElement.lang = chosen;
-    document.querySelector('[data-author-name]').textContent = ['ja', 'zh-Hans', 'zh-Hant'].includes(chosen)
-      ? '片岡 彩子（Ayako Kataoka）' : 'Ayako Kataoka';
-    document.querySelector('[data-author-title]').textContent = authorCopy[chosen][0];
-    document.querySelector('[data-author-bio]').textContent = authorCopy[chosen][1];
     document.querySelectorAll('[data-locale-section]').forEach(section => {
       section.hidden = section.dataset.localeSection !== chosen;
     });
