@@ -59,3 +59,10 @@
 - 作者紹介を3行構成に変更（ユーザー指定、15言語）。`[data-author-bio]` は white-space:pre-line。JS/CSS版 `20261109-9` / `-3`。
 
 - 作者紹介から暗算・引き算・足し算の一文を削除（15言語、アプリ Issue #537 のサイト側）。2行構成。JS版 `20261109-10`。
+
+## 2026-11-17 サポートサイトを47ロケールへ拡張
+
+- 既存15ロケールに32ロケールを追加。トップ・サポートの本文、各言語のプライバシーポリシー、全ページの言語選択と no-script リンク、Cookie 同意文言を更新。アラビア語・ヘブライ語・ウルドゥー語は RTL に対応。
+- アプリ内表示名は新規言語でも `Darts Finish` に統一。英語版の内容、2026年11月4日／9日の日付、連絡先、サイト計測の説明を維持。
+- 作業: `codex/47-locales-task` / `/private/tmp/darts-support/.worktree-base/.worktrees/47-locales-task`。ユーザー指定によりコミット・push は未実施。
+- 検証: `python3 scripts/check_site.py` は50ページ・47ロケールで成功、`node --check site.js` 成功。

@@ -14,7 +14,39 @@
     pl: ['Strona główna', 'Pomoc', 'Polityka prywatności', 'Menu'],
     ko: ['홈', '지원', '개인정보 처리방침', '메뉴'],
     vi: ['Trang chủ', 'Hỗ trợ', 'Chính sách quyền riêng tư', 'Menu'],
-    th: ['หน้าแรก', 'ช่วยเหลือ', 'นโยบายความเป็นส่วนตัว', 'เมนู']
+    th: ['หน้าแรก', 'ช่วยเหลือ', 'นโยบายความเป็นส่วนตัว', 'เมนู'],
+    "sv": ["Hem", "Support", "Integritetspolicy", "Meny"],
+    "da": ["Hjem", "Support", "Privatlivspolitik", "Menu"],
+    "cs": ["Domů", "Podpora", "Zásady ochrany soukromí", "Nabídka"],
+    "hu": ["Főoldal", "Támogatás", "Adatvédelmi szabályzat", "Menü"],
+    "ru": ["Главная", "Поддержка", "Политика конфиденциальности", "Меню"],
+    "af": ["Tuis", "Ondersteuning", "Privaatheidsbeleid", "Kieslys"],
+    "fi": ["Etusivu", "Tuki", "Tietosuojakäytäntö", "Valikko"],
+    "fil": ["Home", "Suporta", "Patakaran sa Privacy", "Menu"],
+    "hi": ["होम", "सहायता", "गोपनीयता नीति", "मेन्यू"],
+    "nb": ["Hjem", "Brukerstøtte", "Personvernerklæring", "Meny"],
+    "ms": ["Laman utama", "Sokongan", "Dasar Privasi", "Menu"],
+    "tr": ["Ana Sayfa", "Destek", "Gizlilik Politikası", "Menü"],
+    "ro": ["Acasă", "Asistență", "Politica de confidențialitate", "Meniu"],
+    "sk": ["Domov", "Podpora", "Zásady ochrany súkromia", "Ponuka"],
+    "ar": ["الرئيسية", "الدعم", "سياسة الخصوصية", "القائمة"],
+    "hr": ["Početna", "Podrška", "Pravila o privatnosti", "Izbornik"],
+    "uk": ["Головна", "Підтримка", "Політика конфіденційності", "Меню"],
+    "el": ["Αρχική", "Υποστήριξη", "Πολιτική απορρήτου", "Μενού"],
+    "id": ["Beranda", "Dukungan", "Kebijakan privasi", "Menu"],
+    "he": ["דף הבית", "תמיכה", "מדיניות פרטיות", "תפריט"],
+    "sl": ["Domov", "Podpora", "Pravilnik o zasebnosti", "Meni"],
+    "ca": ["Inici", "Suport", "Política de privadesa", "Menú"],
+    "bn": ["হোম", "সহায়তা", "গোপনীয়তা নীতি", "মেনু"],
+    "ur": ["ہوم", "معاونت", "رازداری کی پالیسی", "مینو"],
+    "ta": ["முகப்பு", "ஆதரவு", "தனியுரிமைக் கொள்கை", "மெனு"],
+    "te": ["హోమ్", "సహాయం", "గోప్యతా విధానం", "మెనూ"],
+    "kn": ["ಮುಖಪುಟ", "ಬೆಂಬಲ", "ಗೌಪ್ಯತಾ ನೀತಿ", "ಮೆನು"],
+    "ml": ["ഹോം", "സഹായം", "സ്വകാര്യതാ നയം", "മെനു"],
+    "mr": ["मुख्यपृष्ठ", "मदत", "गोपनीयता धोरण", "मेनू"],
+    "gu": ["મુખ્ય પૃષ્ઠ", "સહાય", "ગોપનીયતા નીતિ", "મેનુ"],
+    "pa": ["ਮੁੱਖ ਪੰਨਾ", "ਸਹਾਇਤਾ", "ਪਰਦੇਦਾਰੀ ਨੀਤੀ", "ਮੀਨੂ"],
+    "or": ["ମୁଖ୍ୟ ପୃଷ୍ଠା", "ସହାୟତା", "ଗୋପନୀୟତା ନୀତି", "ମେନୁ"]
   };
   const analyticsCopy = {
     ja: ['このサイトの閲覧数を把握するため、同意した場合だけ Google Analytics を使用します。', '同意する', '同意しない', 'Cookieの設定'],
@@ -31,7 +63,39 @@
     pl: ['Używamy Google Analytics do pomiaru odwiedzin strony tylko za Twoją zgodą.', 'Zgadzam się', 'Odmawiam', 'Ustawienia plików cookie'],
     ko: ['동의한 경우에만 Google Analytics로 이 웹사이트의 방문 수를 측정합니다.', '동의', '거부', '쿠키 설정'],
     vi: ['Chúng tôi chỉ dùng Google Analytics để đo lượt truy cập trang web khi bạn đồng ý.', 'Đồng ý', 'Từ chối', 'Cài đặt cookie'],
-    th: ['เราใช้ Google Analytics วัดจำนวนผู้เข้าชมเว็บไซต์นี้เมื่อคุณยินยอมเท่านั้น', 'ยินยอม', 'ไม่ยินยอม', 'การตั้งค่าคุกกี้']
+    th: ['เราใช้ Google Analytics วัดจำนวนผู้เข้าชมเว็บไซต์นี้เมื่อคุณยินยอมเท่านั้น', 'ยินยอม', 'ไม่ยินยอม', 'การตั้งค่าคุกกี้'],
+    "sv": ["Vi använder Google Analytics för att mäta besök på den här webbplatsen endast om du samtycker.", "Godkänn", "Avböj", "Cookieinställningar"],
+    "da": ["Vi bruger kun Google Analytics til at måle besøg på dette website, hvis du giver samtykke.", "Accepter", "Afvis", "Cookieindstillinger"],
+    "cs": ["Google Analytics používáme k měření návštěv tohoto webu pouze s vaším souhlasem.", "Souhlasím", "Odmítnout", "Nastavení souborů cookie"],
+    "hu": ["A Google Analytics szolgáltatást csak a hozzájárulásoddal használjuk a webhely látogatásainak mérésére.", "Elfogadom", "Elutasítom", "Sütibeállítások"],
+    "ru": ["Мы используем Google Analytics для подсчёта посещений этого сайта только с вашего согласия.", "Согласен", "Отказаться", "Настройки файлов cookie"],
+    "af": ["Ons gebruik Google Analytics om besoeke aan hierdie webwerf te meet slegs as jy instem.", "Stem in", "Weier", "Koekie-instellings"],
+    "fi": ["Käytämme Google Analyticsia tämän sivuston käyntien mittaamiseen vain suostumuksellasi.", "Hyväksy", "Kieltäydy", "Evästeasetukset"],
+    "fil": ["Ginagamit lang namin ang Google Analytics upang sukatin ang mga pagbisita sa website na ito kung papayag ka.", "Pumayag", "Tumanggi", "Mga setting ng cookie"],
+    "hi": ["हम इस वेबसाइट की विज़िट मापने के लिए Google Analytics का उपयोग केवल आपकी सहमति से करते हैं।", "सहमत हूँ", "अस्वीकार करें", "कुकी सेटिंग्स"],
+    "nb": ["Vi bruker Google Analytics til å måle besøk på dette nettstedet bare hvis du samtykker.", "Godta", "Avslå", "Innstillinger for informasjonskapsler"],
+    "ms": ["Kami menggunakan Google Analytics untuk mengukur lawatan ke laman web ini hanya jika anda bersetuju.", "Setuju", "Tolak", "Tetapan kuki"],
+    "tr": ["Bu web sitesinin ziyaretlerini ölçmek için Google Analytics'i yalnızca onay verirseniz kullanırız.", "Kabul et", "Reddet", "Çerez ayarları"],
+    "ro": ["Folosim Google Analytics pentru a măsura vizitele pe acest site numai dacă ești de acord.", "Accept", "Refuz", "Setări cookie"],
+    "sk": ["Google Analytics používame na meranie návštevnosti tejto webovej stránky, iba ak s tým súhlasíte.", "Súhlasím", "Odmietnuť", "Nastavenia súborov cookie"],
+    "ar": ["نستخدم Google Analytics لقياس زيارات هذا الموقع فقط إذا وافقت.", "أوافق", "أرفض", "إعدادات ملفات تعريف الارتباط"],
+    "hr": ["Google Analytics upotrebljavamo za mjerenje posjeta ovoj web-stranici samo ako pristanete.", "Prihvaćam", "Odbijam", "Postavke kolačića"],
+    "uk": ["Ми використовуємо Google Analytics для вимірювання відвідувань цього сайту лише за вашою згодою.", "Погоджуюся", "Відхилити", "Налаштування файлів cookie"],
+    "el": ["Χρησιμοποιούμε το Google Analytics για τη μέτρηση των επισκέψεων σε αυτόν τον ιστότοπο μόνο με τη συγκατάθεσή σας.", "Συμφωνώ", "Απόρριψη", "Ρυθμίσεις cookie"],
+    "id": ["Kami menggunakan Google Analytics untuk mengukur kunjungan ke situs web ini hanya jika Anda menyetujuinya.", "Setuju", "Tolak", "Pengaturan cookie"],
+    "he": ["אנחנו משתמשים ב-Google Analytics כדי למדוד ביקורים באתר הזה רק בהסכמתך.", "אני מסכים/ה", "דחייה", "הגדרות קובצי Cookie"],
+    "sl": ["Google Analytics uporabljamo za merjenje obiskov tega spletnega mesta samo z vašim soglasjem.", "Strinjam se", "Zavrni", "Nastavitve piškotkov"],
+    "ca": ["Utilitzem Google Analytics per mesurar les visites a aquest lloc web només amb el teu consentiment.", "Accepto", "Rebutja", "Configuració de les galetes"],
+    "bn": ["শুধু আপনার সম্মতি থাকলেই আমরা এই ওয়েবসাইটের ভিজিট পরিমাপ করতে Google Analytics ব্যবহার করি।", "সম্মত", "প্রত্যাখ্যান", "কুকি সেটিংস"],
+    "ur": ["ہم صرف آپ کی رضامندی سے اس ویب سائٹ پر آنے والے افراد کی تعداد جانچنے کے لیے Google Analytics استعمال کرتے ہیں۔", "متفق ہوں", "انکار", "کوکی کی ترتیبات"],
+    "ta": ["நீங்கள் ஒப்புக்கொண்டால் மட்டுமே இந்த இணையதளத்தின் வருகைகளை அளவிட Google Analytics பயன்படுத்துகிறோம்.", "ஒப்புக்கொள்கிறேன்", "மறுக்கிறேன்", "குக்கீ அமைப்புகள்"],
+    "te": ["మీరు అంగీకరిస్తే మాత్రమే ఈ వెబ్‌సైట్ సందర్శనలను కొలవడానికి Google Analytics ఉపయోగిస్తాము.", "అంగీకరిస్తున్నాను", "తిరస్కరిస్తున్నాను", "కుకీ సెట్టింగ్‌లు"],
+    "kn": ["ನೀವು ಒಪ್ಪಿದರೆ ಮಾತ್ರ ಈ ವೆಬ್‌ಸೈಟ್‌ನ ಭೇಟಿಗಳನ್ನು ಅಳೆಯಲು Google Analytics ಬಳಸುತ್ತೇವೆ.", "ಒಪ್ಪುತ್ತೇನೆ", "ನಿರಾಕರಿಸುತ್ತೇನೆ", "ಕುಕೀ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"],
+    "ml": ["നിങ്ങൾ സമ്മതിച്ചാൽ മാത്രം ഈ വെബ്‌സൈറ്റിലേക്കുള്ള സന്ദർശനങ്ങൾ അളക്കാൻ Google Analytics ഉപയോഗിക്കുന്നു.", "സമ്മതിക്കുന്നു", "നിരസിക്കുന്നു", "കുക്കി ക്രമീകരണങ്ങൾ"],
+    "mr": ["तुम्ही संमती दिल्यासच या वेबसाइटवरील भेटी मोजण्यासाठी आम्ही Google Analytics वापरतो.", "सहमत आहे", "नकार देतो", "कुकी सेटिंग्ज"],
+    "gu": ["તમે સંમતિ આપો તો જ આ વેબસાઇટની મુલાકાતો માપવા માટે અમે Google Analytics વાપરીએ છીએ.", "સંમત છું", "નકારું છું", "કૂકી સેટિંગ્સ"],
+    "pa": ["ਤੁਸੀਂ ਸਹਿਮਤੀ ਦਿਓ ਤਾਂ ਹੀ ਅਸੀਂ ਇਸ ਵੈੱਬਸਾਈਟ ਦੀਆਂ ਮੁਲਾਕਾਤਾਂ ਮਾਪਣ ਲਈ Google Analytics ਵਰਤਦੇ ਹਾਂ।", "ਸਹਿਮਤ ਹਾਂ", "ਇਨਕਾਰ ਕਰਦਾ/ਕਰਦੀ ਹਾਂ", "ਕੁਕੀ ਸੈਟਿੰਗਾਂ"],
+    "or": ["ଆପଣ ସମ୍ମତି ଦେଲେ ହିଁ ଏହି ୱେବସାଇଟ୍‌ର ପରିଦର୍ଶନ ମାପିବାକୁ ଆମେ Google Analytics ବ୍ୟବହାର କରୁ।", "ସମ୍ମତ", "ଅସମ୍ମତ", "କୁକି ସେଟିଂସ୍"]
   };
   const page = document.body.dataset.page;
   const preferenceKey = 'dartsfinish-site-analytics-consent';
@@ -86,7 +150,13 @@
     navigator.language.split('-')[0]
   ];
   const resolve = value => {
+    if (!value) return null;
+    value = value.replace(/_/g, '-');
+    const language = value.split('-')[0].toLowerCase();
+    const aliases = { iw: 'he', in: 'id', no: 'nb', nn: 'nb', tl: 'fil' };
+    if (aliases[language]) return aliases[language];
     if (labels[value]) return value;
+    if (labels[language]) return language;
     if (value && value.startsWith('en')) return 'en-GB';
     if (value && value.startsWith('es')) return 'es';
     if (value && /^pt-(PT|AO|MZ|CV|GW|ST|TL)$/i.test(value)) return 'pt-PT';
@@ -121,6 +191,7 @@
   function show(locale) {
     const chosen = resolve(locale) || 'ja';
     document.documentElement.lang = chosen;
+    document.documentElement.dir = ['ar', 'he', 'ur'].includes(chosen) ? 'rtl' : 'ltr';
     document.querySelectorAll('[data-locale-section]').forEach(section => {
       section.hidden = section.dataset.localeSection !== chosen;
     });

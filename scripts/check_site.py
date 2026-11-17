@@ -11,6 +11,9 @@ ROOT = Path(__file__).resolve().parents[1]
 LOCALES = (
     'ja', 'en-GB', 'zh-Hans', 'zh-Hant', 'de', 'es', 'fr', 'nl', 'it',
     'pt-BR', 'pt-PT', 'pl', 'ko', 'vi', 'th',
+    'sv', 'da', 'cs', 'hu', 'ru', 'af', 'fi', 'fil', 'hi', 'nb',
+    'ms', 'tr', 'ro', 'sk', 'ar', 'hr', 'uk', 'el', 'id', 'he',
+    'sl', 'ca', 'bn', 'ur', 'ta', 'te', 'kn', 'ml', 'mr', 'gu', 'pa', 'or',
 )
 
 
@@ -21,6 +24,7 @@ class Page(HTMLParser):
         self.sections = []
         self.options = []
         self.assets = []
+        self.language_links = []
 
     def handle_starttag(self, tag, attrs):
         values = dict(attrs)
@@ -30,6 +34,8 @@ class Page(HTMLParser):
             self.sections.append(values['data-locale-section'])
         if tag == 'option' and 'value' in values:
             self.options.append(values['value'])
+        if tag == 'a' and 'hreflang' in values:
+            self.language_links.append(values['hreflang'])
         if tag in ('img', 'source'):
             self.assets.append(values.get('src') or values.get('srcset'))
 
@@ -41,8 +47,11 @@ def main():
         page = Page()
         page.feed(file.read_text(encoding='utf-8'))
         assert page.options == list(LOCALES) * 2, file
+        assert page.language_links == list(LOCALES), file
         if file.name in ('index.html', 'support.html'):
             assert page.sections == list(LOCALES), file
+        if file.name.startswith('privacy-') and file.stem[8:] in ('ar', 'he', 'ur'):
+            assert f'<html lang="{file.stem[8:]}" dir="rtl">' in file.read_text(encoding='utf-8'), file
         for target in page.links + page.assets:
             if not target or target.startswith(('http:', 'https:', 'mailto:', '#')):
                 continue
