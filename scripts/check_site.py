@@ -14,6 +14,9 @@ LOCALES = (
     'sv', 'da', 'cs', 'hu', 'ru', 'af', 'fi', 'fil', 'hi', 'nb',
     'ms', 'tr', 'ro', 'sk', 'ar', 'hr', 'uk', 'el', 'id', 'he',
     'sl', 'ca', 'bn', 'ur', 'ta', 'te', 'kn', 'ml', 'mr', 'gu', 'pa', 'or',
+    'bg', 'sr', 'lv', 'lt', 'et', 'is', 'sq', 'mk', 'be', 'hy', 'ka', 'az',
+    'kk', 'ky', 'mn', 'fa', 'eu', 'gl', 'rm', 'sw', 'am', 'ne', 'si', 'my',
+    'km', 'lo',
 )
 
 
@@ -50,7 +53,7 @@ def main():
         assert page.language_links == list(LOCALES), file
         if file.name in ('index.html', 'support.html'):
             assert page.sections == list(LOCALES), file
-        if file.name.startswith('privacy-') and file.stem[8:] in ('ar', 'he', 'ur'):
+        if file.name.startswith('privacy-') and file.stem[8:] in ('ar', 'he', 'ur', 'fa'):
             assert f'<html lang="{file.stem[8:]}" dir="rtl">' in file.read_text(encoding='utf-8'), file
         for target in page.links + page.assets:
             if not target or target.startswith(('http:', 'https:', 'mailto:', '#')):

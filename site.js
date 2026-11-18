@@ -46,7 +46,33 @@
     "mr": ["मुख्यपृष्ठ", "मदत", "गोपनीयता धोरण", "मेनू"],
     "gu": ["મુખ્ય પૃષ્ઠ", "સહાય", "ગોપનીયતા નીતિ", "મેનુ"],
     "pa": ["ਮੁੱਖ ਪੰਨਾ", "ਸਹਾਇਤਾ", "ਪਰਦੇਦਾਰੀ ਨੀਤੀ", "ਮੀਨੂ"],
-    "or": ["ମୁଖ୍ୟ ପୃଷ୍ଠା", "ସହାୟତା", "ଗୋପନୀୟତା ନୀତି", "ମେନୁ"]
+    "or": ["ମୁଖ୍ୟ ପୃଷ୍ଠା", "ସହାୟତା", "ଗୋପନୀୟତା ନୀତି", "ମେନୁ"],
+    "bg": ["Начало", "Поддръжка", "Политика за поверителност", "Меню"],
+    "sr": ["Почетна", "Подршка", "Политика приватности", "Мени"],
+    "lv": ["Sākums", "Atbalsts", "Privātuma politika", "Izvēlne"],
+    "lt": ["Pradžia", "Pagalba", "Privatumo politika", "Meniu"],
+    "et": ["Avaleht", "Tugi", "Privaatsuspoliitika", "Menüü"],
+    "is": ["Heim", "Aðstoð", "Persónuverndarstefna", "Valmynd"],
+    "sq": ["Kreu", "Mbështetje", "Politika e privatësisë", "Menyja"],
+    "mk": ["Почетна", "Поддршка", "Политика за приватност", "Мени"],
+    "be": ["Галоўная", "Падтрымка", "Палітыка прыватнасці", "Меню"],
+    "hy": ["Գլխավոր", "Աջակցություն", "Գաղտնիության քաղաքականություն", "Ընտրացանկ"],
+    "ka": ["მთავარი", "მხარდაჭერა", "კონფიდენციალურობის პოლიტიკა", "მენიუ"],
+    "az": ["Ana səhifə", "Dəstək", "Məxfilik siyasəti", "Menyu"],
+    "kk": ["Басты бет", "Қолдау", "Құпиялық саясаты", "Мәзір"],
+    "ky": ["Башкы бет", "Колдоо", "Купуялык саясаты", "Меню"],
+    "mn": ["Нүүр", "Тусламж", "Нууцлалын бодлого", "Цэс"],
+    "fa": ["خانه", "پشتیبانی", "سیاست حفظ حریم خصوصی", "فهرست"],
+    "eu": ["Hasiera", "Laguntza", "Pribatutasun politika", "Menua"],
+    "gl": ["Inicio", "Axuda", "Política de privacidade", "Menú"],
+    "rm": ["Pagina principala", "Agid", "Politica da la protecziun da datas", "Menu"],
+    "sw": ["Mwanzo", "Msaada", "Sera ya faragha", "Menyu"],
+    "am": ["መነሻ", "ድጋፍ", "የግላዊነት ፖሊሲ", "ምናሌ"],
+    "ne": ["गृहपृष्ठ", "सहायता", "गोपनीयता नीति", "मेनु"],
+    "si": ["මුල් පිටුව", "සහාය", "පෞද්ගලිකත්ව ප්‍රතිපත්තිය", "මෙනුව"],
+    "my": ["ပင်မစာမျက်နှာ", "အကူအညီ", "ကိုယ်ရေးအချက်အလက်မူဝါဒ", "မီနူး"],
+    "km": ["ទំព័រដើម", "ជំនួយ", "គោលការណ៍ឯកជនភាព", "ម៉ឺនុយ"],
+    "lo": ["ໜ້າຫຼັກ", "ຊ່ວຍເຫຼືອ", "ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ", "ເມນູ"]
   };
   const analyticsCopy = {
     ja: ['このサイトの閲覧数を把握するため、同意した場合だけ Google Analytics を使用します。', '同意する', '同意しない', 'Cookieの設定'],
@@ -95,7 +121,33 @@
     "mr": ["तुम्ही संमती दिल्यासच या वेबसाइटवरील भेटी मोजण्यासाठी आम्ही Google Analytics वापरतो.", "सहमत आहे", "नकार देतो", "कुकी सेटिंग्ज"],
     "gu": ["તમે સંમતિ આપો તો જ આ વેબસાઇટની મુલાકાતો માપવા માટે અમે Google Analytics વાપરીએ છીએ.", "સંમત છું", "નકારું છું", "કૂકી સેટિંગ્સ"],
     "pa": ["ਤੁਸੀਂ ਸਹਿਮਤੀ ਦਿਓ ਤਾਂ ਹੀ ਅਸੀਂ ਇਸ ਵੈੱਬਸਾਈਟ ਦੀਆਂ ਮੁਲਾਕਾਤਾਂ ਮਾਪਣ ਲਈ Google Analytics ਵਰਤਦੇ ਹਾਂ।", "ਸਹਿਮਤ ਹਾਂ", "ਇਨਕਾਰ ਕਰਦਾ/ਕਰਦੀ ਹਾਂ", "ਕੁਕੀ ਸੈਟਿੰਗਾਂ"],
-    "or": ["ଆପଣ ସମ୍ମତି ଦେଲେ ହିଁ ଏହି ୱେବସାଇଟ୍‌ର ପରିଦର୍ଶନ ମାପିବାକୁ ଆମେ Google Analytics ବ୍ୟବହାର କରୁ।", "ସମ୍ମତ", "ଅସମ୍ମତ", "କୁକି ସେଟିଂସ୍"]
+    "or": ["ଆପଣ ସମ୍ମତି ଦେଲେ ହିଁ ଏହି ୱେବସାଇଟ୍‌ର ପରିଦର୍ଶନ ମାପିବାକୁ ଆମେ Google Analytics ବ୍ୟବହାର କରୁ।", "ସମ୍ମତ", "ଅସମ୍ମତ", "କୁକି ସେଟିଂସ୍"],
+    "bg": ["Използваме Google Analytics за измерване на посещенията на този сайт само ако дадете съгласие.", "Съгласен/на съм", "Отказвам", "Настройки на бисквитките"],
+    "sr": ["Користимо Google Analytics за мерење посета овом веб-сајту само ако пристанете.", "Прихватам", "Одбијам", "Подешавања колачића"],
+    "lv": ["Mēs izmantojam Google Analytics šīs vietnes apmeklējumu mērīšanai tikai tad, ja jūs piekrītat.", "Piekrītu", "Nepiekrītu", "Sīkdatņu iestatījumi"],
+    "lt": ["Google Analytics naudojame šios svetainės lankomumui matuoti tik gavę jūsų sutikimą.", "Sutinku", "Nesutinku", "Slapukų nustatymai"],
+    "et": ["Kasutame Google Analyticsit selle veebisaidi külastuste mõõtmiseks ainult teie nõusolekul.", "Nõustun", "Keeldun", "Küpsiste seaded"],
+    "is": ["Við notum Google Analytics til að mæla heimsóknir á þetta vefsvæði aðeins ef þú samþykkir það.", "Samþykkja", "Hafna", "Stillingar vafrakaka"],
+    "sq": ["Përdorim Google Analytics për të matur vizitat në këtë faqe interneti vetëm nëse pranoni.", "Pranoj", "Refuzoj", "Cilësimet e cookie-ve"],
+    "mk": ["Користиме Google Analytics за мерење на посетите на оваа веб-страница само ако се согласите.", "Се согласувам", "Одбивам", "Поставки за колачиња"],
+    "be": ["Мы выкарыстоўваем Google Analytics для падліку наведванняў гэтага сайта толькі з вашай згоды.", "Пагадзіцца", "Адмовіцца", "Налады файлаў cookie"],
+    "hy": ["Մենք Google Analytics-ն օգտագործում ենք այս կայքի այցելությունները չափելու համար միայն ձեր համաձայնությամբ։", "Համաձայն եմ", "Մերժել", "Թխուկների կարգավորումներ"],
+    "ka": ["ამ ვებსაიტზე ვიზიტების გასაზომად Google Analytics-ს მხოლოდ თქვენი თანხმობით ვიყენებთ.", "ვეთანხმები", "უარს ვამბობ", "ქუქი-ფაილების პარამეტრები"],
+    "az": ["Bu veb-sayta ziyarətləri ölçmək üçün Google Analytics-dən yalnız razılığınız olduqda istifadə edirik.", "Razıyam", "İmtina edirəm", "Kuki ayarları"],
+    "kk": ["Бұл веб-сайтқа кірулер санын өлшеу үшін Google Analytics қызметін тек сіз келіссеңіз ғана пайдаланамыз.", "Келісемін", "Бас тартамын", "Cookie параметрлері"],
+    "ky": ["Бул веб-сайтка кирүүлөрдүн санын өлчөө үчүн Google Analytics кызматын сиз макул болгондо гана колдонобуз.", "Макулмун", "Баш тартам", "Cookie жөндөөлөрү"],
+    "mn": ["Та зөвшөөрсөн тохиолдолд л бид Google Analytics ашиглан энэ вэбсайтын хандалтыг хэмжинэ.", "Зөвшөөрөх", "Татгалзах", "Күүкийн тохиргоо"],
+    "fa": ["ما فقط در صورت موافقت شما از Google Analytics برای اندازه‌گیری بازدیدهای این وب‌سایت استفاده می‌کنیم.", "موافقم", "رد می‌کنم", "تنظیمات کوکی"],
+    "eu": ["Google Analytics erabiltzen dugu webgune honetako bisitak neurtzeko, zuk baimena ematen baduzu soilik.", "Onartu", "Baztertu", "Cookieen ezarpenak"],
+    "gl": ["Só usamos Google Analytics para medir as visitas a este sitio web se dás o teu consentimento.", "Aceptar", "Rexeitar", "Configuración das cookies"],
+    "rm": ["Nus utilisain Google Analytics per mesirar las visitas da questa pagina web mo sche ti acceptas.", "Acceptar", "Refusar", "Preferenzas da cookies"],
+    "sw": ["Tunatumia Google Analytics kupima idadi ya ziara kwenye tovuti hii ikiwa tu umekubali.", "Kubali", "Kataa", "Mipangilio ya vidakuzi"],
+    "am": ["ይህን ድረ ገጽ የሚጎበኙ ሰዎችን ብዛት ለመለካት Google Analyticsን የምንጠቀመው እርስዎ ከተስማሙ ብቻ ነው።", "እስማማለሁ", "አልስማማም", "የኩኪ ቅንብሮች"],
+    "ne": ["तपाईं सहमत हुनुभयो भने मात्र हामी यस वेबसाइटका भ्रमणहरू मापन गर्न Google Analytics प्रयोग गर्छौँ।", "सहमत छु", "अस्वीकार गर्छु", "कुकी सेटिङहरू"],
+    "si": ["ඔබ එකඟ වුවහොත් පමණක් මෙම වෙබ් අඩවියට පිවිසීම් මැනීමට අපි Google Analytics භාවිතා කරමු.", "එකඟ වෙමි", "ප්‍රතික්ෂේප කරමි", "කුකී සැකසුම්"],
+    "my": ["သင်သဘောတူမှသာ ဤဝဘ်ဆိုက်သို့ ဝင်ရောက်ကြည့်ရှုမှုများကို တိုင်းတာရန် Google Analytics ကို အသုံးပြုပါသည်။", "သဘောတူသည်", "ငြင်းပယ်သည်", "Cookie ဆက်တင်များ"],
+    "km": ["យើងប្រើ Google Analytics ដើម្បីវាស់ចំនួនការចូលមើលគេហទំព័រនេះ លុះត្រាតែអ្នកយល់ព្រម។", "យល់ព្រម", "បដិសេធ", "ការកំណត់ខូគី"],
+    "lo": ["ພວກເຮົາໃຊ້ Google Analytics ເພື່ອວັດແທກການເຂົ້າຊົມເວັບໄຊນີ້ສະເພາະເມື່ອທ່ານຍິນຍອມ.", "ຍິນຍອມ", "ປະຕິເສດ", "ການຕັ້ງຄ່າຄຸກກີ"]
   };
   const page = document.body.dataset.page;
   const preferenceKey = 'dartsfinish-site-analytics-consent';
@@ -191,7 +243,7 @@
   function show(locale) {
     const chosen = resolve(locale) || 'ja';
     document.documentElement.lang = chosen;
-    document.documentElement.dir = ['ar', 'he', 'ur'].includes(chosen) ? 'rtl' : 'ltr';
+    document.documentElement.dir = ['ar', 'he', 'ur', 'fa'].includes(chosen) ? 'rtl' : 'ltr';
     document.querySelectorAll('[data-locale-section]').forEach(section => {
       section.hidden = section.dataset.localeSection !== chosen;
     });
