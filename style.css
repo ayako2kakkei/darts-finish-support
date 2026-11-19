@@ -93,10 +93,20 @@ a.store-button:hover{opacity:.9}
 .lp .cta h2{margin-bottom:24px}
 .lp .contact{max-width:720px;margin:auto;padding:24px 20px 0}
 @media(min-width:720px){
-  .feature{flex-direction:row;gap:48px}
-  .feature-text{order:0}
-  .feature .phone{width:250px}
-  .feature:nth-of-type(even){flex-direction:row-reverse}
+  /* PC・タブレットでは、できることをカードのグリッドにする */
+  .lp .features{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;max-width:1040px;margin:auto;padding:56px 24px 32px}
+  .lp .features>h2{grid-column:1/-1;margin-bottom:8px}
+  .feature{margin:0;max-width:none;justify-content:flex-start;gap:22px;padding:28px 24px;border:1px solid var(--line);border-radius:20px;background:var(--surface)}
+  .feature-text{order:1}
+  .feature .phone{width:200px;box-shadow:0 12px 28px #0002}
+  .feature-highlight{background:var(--bg)}
+  .rule-list{gap:0;border-top:1px solid var(--line)}
+  .rule-list li{padding:8px 0;border:0;border-bottom:1px solid var(--line);border-radius:0;background:none}
+  .rule-list strong{font-size:.92rem}
+  .rule-list span{font-size:.8rem}
+}
+@media(min-width:1000px){
+  .lp .features{grid-template-columns:repeat(3,1fr)}
 }
 @media(min-width:900px){
   .lp .hero{flex-direction:row;justify-content:center;gap:64px;text-align:left;padding:56px 32px 64px}
