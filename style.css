@@ -1,5 +1,5 @@
-:root{--cjk:"Noto Sans JP";--bg:#F6F1E7;--ink:#2B2620;--muted:#6B6257;--accent:#9C3D2E;--line:#E0D6C4;--surface:#FFFDF8}
-@media(prefers-color-scheme:dark){:root{--bg:#1E1B17;--ink:#EEE7DA;--muted:#B3A898;--accent:#E08A72;--line:#3A342C;--surface:#29241E}}
+:root{--cjk:"Noto Sans JP";--card:#FAF6EE;--bg:#F6F1E7;--ink:#2B2620;--muted:#6B6257;--accent:#9C3D2E;--line:#E0D6C4;--surface:#FFFDF8}
+@media(prefers-color-scheme:dark){:root{--card:#24201B;--bg:#1E1B17;--ink:#EEE7DA;--muted:#B3A898;--accent:#E08A72;--line:#3A342C;--surface:#29241E}}
 *{box-sizing:border-box}
 /* 漢字は言語ごとに字形が違うので、ページの言語に合う Noto Sans を先に使う */
 :root:lang(zh-Hans){--cjk:"Noto Sans SC"}:root:lang(zh-Hant){--cjk:"Noto Sans TC"}:root:lang(ko){--cjk:"Noto Sans KR"}
@@ -86,17 +86,17 @@ a.store-button:hover{opacity:.9}
 .rule-list strong{font-size:.98rem}
 .rule-list span{color:var(--muted);font-size:.88rem}
 .points{display:grid;gap:16px;padding:8px 20px 40px;max-width:600px;margin:auto}
-.point{padding:20px;border:1px solid var(--line);border-radius:16px;background:var(--surface)}
+.point{padding:20px;border:1px solid var(--line);border-radius:16px;background:var(--card)}
 .point svg{width:30px;height:30px;color:var(--accent)}
 .point h3{margin:6px 0 4px;font-size:1.1rem}
-.lp .cta{padding:40px 20px;margin:0 20px;border-radius:20px;background:var(--surface);border:1px solid var(--line);text-align:center}
+.lp .cta{padding:40px 20px;margin:0 20px;border-radius:20px;background:var(--card);border:1px solid var(--line);text-align:center}
 .lp .cta h2{margin-bottom:24px}
 .lp .contact{max-width:720px;margin:auto;padding:24px 20px 0}
 @media(min-width:720px){
   /* PC・タブレットでは、できることをカードのグリッドにする */
   .lp .features{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;max-width:1040px;margin:auto;padding:56px 24px 32px}
   .lp .features>h2{grid-column:1/-1;margin-bottom:8px}
-  .feature{margin:0;max-width:none;justify-content:flex-start;gap:22px;padding:28px 24px;border:1px solid var(--line);border-radius:20px;background:var(--surface)}
+  .feature{margin:0;max-width:none;justify-content:flex-start;gap:22px;padding:28px 24px;border:1px solid var(--line);border-radius:20px;background:var(--card)}
   .feature-text{order:1}
   .feature .phone{width:200px;box-shadow:0 12px 28px #0002}
   .feature-highlight{background:var(--bg)}
