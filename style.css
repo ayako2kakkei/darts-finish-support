@@ -1,8 +1,10 @@
-:root{--bg:#F6F1E7;--ink:#2B2620;--muted:#6B6257;--accent:#9C3D2E;--line:#E0D6C4;--surface:#FFFDF8}
+:root{--cjk:"Noto Sans JP";--bg:#F6F1E7;--ink:#2B2620;--muted:#6B6257;--accent:#9C3D2E;--line:#E0D6C4;--surface:#FFFDF8}
 @media(prefers-color-scheme:dark){:root{--bg:#1E1B17;--ink:#EEE7DA;--muted:#B3A898;--accent:#E08A72;--line:#3A342C;--surface:#29241E}}
 *{box-sizing:border-box}
+/* 漢字は言語ごとに字形が違うので、ページの言語に合う Noto Sans を先に使う */
+:root:lang(zh-Hans){--cjk:"Noto Sans SC"}:root:lang(zh-Hant){--cjk:"Noto Sans TC"}:root:lang(ko){--cjk:"Noto Sans KR"}
 [hidden]{display:none!important}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.75 -apple-system,BlinkMacSystemFont,"Hiragino Sans","Segoe UI",sans-serif}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.75 "Noto Sans",var(--cjk),"Noto Sans Thai","Noto Sans Arabic","Noto Sans Hebrew","Noto Sans Devanagari","Noto Sans Bengali","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Kannada","Noto Sans Malayalam","Noto Sans Gujarati","Noto Sans Gurmukhi","Noto Sans Oriya","Noto Sans Sinhala","Noto Sans Myanmar","Noto Sans Khmer","Noto Sans Lao","Noto Sans Armenian","Noto Sans Georgian","Noto Sans Ethiopic",sans-serif}
 a{color:var(--accent)}
 a:focus-visible,button:focus-visible,select:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
 .site-header{border-bottom:1px solid var(--line);background:var(--surface)}
@@ -13,7 +15,7 @@ a:focus-visible,button:focus-visible,select:focus-visible{outline:3px solid var(
 .desktop-nav{display:flex;align-items:center;gap:22px;margin-left:auto;white-space:nowrap}
 .desktop-nav a,.mobile-menu a{text-decoration:none;color:var(--ink);font-weight:600}
 .desktop-nav a:hover,.mobile-menu a:hover,.desktop-nav a[aria-current=page],.mobile-menu a[aria-current=page]{color:var(--accent)}
-.language-select{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:5px 46px 5px 12px;max-width:210px;cursor:pointer;appearance:none;-webkit-appearance:none}
+.language-select{font:inherit;font-family:"Noto Sans",system-ui,sans-serif;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:5px 46px 5px 12px;max-width:210px;cursor:pointer;appearance:none;-webkit-appearance:none}
 .desktop-language,.mobile-menu label{position:relative}
 .desktop-language:after,.mobile-menu label:after{content:"";position:absolute;right:18px;top:50%;width:7px;height:7px;border-right:2px solid var(--ink);border-bottom:2px solid var(--ink);transform:translateY(-70%) rotate(45deg);pointer-events:none}
 .desktop-language{margin-left:2px}
