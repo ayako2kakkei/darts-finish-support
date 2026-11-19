@@ -1825,8 +1825,12 @@
         const title = document.createElement('strong');
         const detail = document.createElement('span');
         title.textContent = name;
-        detail.textContent = note;
-        item.append(title, detail);
+        item.append(title);
+        // 補足（大会名など）は日本語だけ。ほかの言語はルール名だけにする。
+        if (locale === 'ja') {
+          detail.textContent = note;
+          item.append(detail);
+        }
         return item;
       }));
     });
