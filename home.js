@@ -284,6 +284,11 @@
       const src = `img/${folder}/${img.dataset.shot}.webp`;
       if (img.getAttribute('src') !== src) img.setAttribute('src', src);
     });
+    // 表示設定の画面（ダークモード・ボード配色）は日本語版と英語版だけ。
+    document.querySelectorAll('img[data-settings]').forEach(img => {
+      const src = `img/settings/${locale === 'ja' ? 'ja' : 'en'}-dark.webp`;
+      if (img.getAttribute('src') !== src) img.setAttribute('src', src);
+    });
     document.querySelectorAll('[data-store="app-store"]').forEach(link => { link.href = APP_STORE_URL; });
 
     document.querySelectorAll('video[data-demo]').forEach(video => {
