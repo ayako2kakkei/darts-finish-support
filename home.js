@@ -17,7 +17,7 @@
       f4t: '上がれないときの残し方', f4b: 'このラウンドで上がれないときに、次のラウンドで上がりやすい数字を残す方法も練習できます。',
       rt: 'ルールを選べる', rb: 'ブルの種類（Fat Bull／Separate Bull）やアウトの条件（Master Out など）を切り替えられます。JAPAN・JAPAN LADIES・PERFECT などのルールに合わせて練習できます。',
       dt: 'ダークモードにも対応', db: 'ダークモードで表示できます。ダーツボードは、ダーツライブ・フェニックス・ハードダーツの配色から選べます。',
-      p2t: '記録は端末の中だけ', p2b: '設定や覚えた印は端末の中だけに保存されます。アカウント登録、広告、外部への送信はありません。',
+      p2t: '情報を取得しないから安心', p2b: '個人情報や使い方の記録は一切取得しません。アカウント登録も広告もないので、安心して使えます。',
       ctaTitle: 'さっそく練習をはじめよう',
       videoLabel: 'アプリの操作動画'
     },
@@ -33,7 +33,7 @@
       f4t: 'Leave a good score', f4b: 'When you cannot finish this turn, practise leaving a score that is easier to finish on your next turn.',
       rt: 'Choose your rules', rb: 'Switch the bull type (Fat Bull / Separate Bull) and the out rule (Master Out and more), and practise for the rules you play.',
       dt: 'Dark mode too', db: 'Use the app in dark mode. Choose DARTSLIVE, PHOENIX or steel-tip colours for the dartboard.',
-      p2t: 'Stays on your device', p2b: 'Settings and progress are saved only on your device. No account, no ads, nothing sent anywhere.',
+      p2t: 'No data collected', p2b: 'The app collects no personal data and does not track how you use it. No account and no ads, so you can use it with peace of mind.',
       ctaTitle: 'Start practising today',
       videoLabel: 'App demo video'
     },
@@ -49,7 +49,7 @@
       f4t: '无法收镖时的留分', f4b: '当这一轮无法收镖时，也能练习如何留下下一轮更容易收镖的分数。',
       rt: '可选择规则', rb: '可以切换牛眼类型（Fat Bull／Separate Bull）和收镖条件（Master Out 等），按你比赛的规则练习。',
       dt: '支持深色模式', db: '可以用深色模式显示。镖盘可选 DARTSLIVE、PHOENIX 或硬镖配色。',
-      p2t: '数据只保存在设备上', p2b: '设置和学习记录只保存在你的设备中。无需注册账号，没有广告，也不会向外发送数据。',
+      p2t: '不收集任何信息', p2b: '不收集个人信息，也不记录你的使用情况。无需注册账号，没有广告，可以放心使用。',
       ctaTitle: '现在就开始练习吧',
       videoLabel: '应用演示视频'
     },
@@ -65,7 +65,7 @@
       f4t: '無法結鏢時的留分', f4b: '這一輪無法結鏢時，也能練習如何留下下一輪更容易結鏢的分數。',
       rt: '可選擇規則', rb: '可以切換紅心類型（Fat Bull／Separate Bull）與結鏢條件（Master Out 等），依你比賽的規則練習。',
       dt: '支援深色模式', db: '可以用深色模式顯示。鏢靶可選 DARTSLIVE、PHOENIX 或硬鏢配色。',
-      p2t: '資料只存在裝置上', p2b: '設定與學習紀錄只儲存在你的裝置中。不需註冊帳號，沒有廣告，也不會向外傳送資料。',
+      p2t: '不蒐集任何資訊', p2b: '不蒐集個人資訊，也不記錄你的使用情況。不需註冊帳號，沒有廣告，可以安心使用。',
       ctaTitle: '現在就開始練習吧',
       videoLabel: 'App 示範影片'
     },
@@ -81,7 +81,7 @@
       f4t: 'Gut stehen lassen', f4b: 'Wenn du in dieser Aufnahme nicht auschecken kannst, übst du, einen Rest stehen zu lassen, der in der nächsten Aufnahme leichter geht.',
       rt: 'Regeln wählen', rb: 'Wechsle die Bull-Art (Fat Bull / Separate Bull) und die Out-Regel (Master Out u. a.) und übe nach den Regeln, die du spielst.',
       dt: 'Auch im Dunkelmodus', db: 'Nutze die App im Dunkelmodus. Für die Dartscheibe wählst du DARTSLIVE-, PHOENIX- oder Steeldart-Farben.',
-      p2t: 'Bleibt auf deinem Gerät', p2b: 'Einstellungen und Fortschritt werden nur auf deinem Gerät gespeichert. Kein Konto, keine Werbung, keine Datenübertragung.',
+      p2t: 'Keine Datenerfassung', p2b: 'Die App erfasst keine persönlichen Daten und verfolgt nicht, wie du sie nutzt. Kein Konto, keine Werbung – du kannst sie ganz unbesorgt verwenden.',
       ctaTitle: 'Jetzt mit dem Üben loslegen',
       videoLabel: 'Demovideo der App'
     },
@@ -97,7 +97,7 @@
       f4t: 'Deja una buena puntuación', f4b: 'Si no puedes cerrar en este turno, practica cómo dejar una puntuación más fácil de cerrar en el siguiente.',
       rt: 'Elige las reglas', rb: 'Cambia el tipo de bull (Fat Bull / Separate Bull) y la regla de salida (Master Out y más) y practica con las reglas que juegas.',
       dt: 'También en modo oscuro', db: 'Usa la app en modo oscuro. Para la diana, elige los colores DARTSLIVE, PHOENIX o de punta de acero.',
-      p2t: 'Todo queda en tu dispositivo', p2b: 'Los ajustes y tu progreso se guardan solo en tu dispositivo. Sin cuenta, sin anuncios y sin enviar datos.',
+      p2t: 'Sin recogida de datos', p2b: 'La app no recoge datos personales ni registra cómo la usas. Sin cuenta y sin anuncios, para que la uses con total tranquilidad.',
       ctaTitle: 'Empieza a practicar hoy',
       videoLabel: 'Vídeo de demostración de la app'
     },
@@ -113,7 +113,7 @@
       f4t: 'Laisser un bon reste', f4b: 'Quand vous ne pouvez pas finir sur cette volée, entraînez-vous à laisser un score plus facile à finir à la suivante.',
       rt: 'Règles au choix', rb: 'Changez le type de bull (Fat Bull / Separate Bull) et la règle de sortie (Master Out, etc.) pour vous entraîner selon vos règles.',
       dt: 'Mode sombre aussi', db: 'Utilisez l’app en mode sombre. Pour la cible, choisissez les couleurs DARTSLIVE, PHOENIX ou pointe acier.',
-      p2t: 'Tout reste sur votre appareil', p2b: 'Les réglages et la progression sont enregistrés uniquement sur votre appareil. Pas de compte, pas de publicité, aucune donnée envoyée.',
+      p2t: 'Aucune donnée collectée', p2b: 'L’app ne collecte aucune donnée personnelle et ne suit pas votre utilisation. Pas de compte, pas de publicité : utilisez-la en toute tranquillité.',
       ctaTitle: 'Commencez à vous entraîner',
       videoLabel: 'Vidéo de démonstration de l’app'
     },
@@ -129,7 +129,7 @@
       f4t: 'Een goede rest laten staan', f4b: 'Lukt uitgooien deze beurt niet, oefen dan hoe je een score laat staan die je de volgende beurt makkelijker uitgooit.',
       rt: 'Kies je regels', rb: 'Wissel het type bull (Fat Bull / Separate Bull) en de uitgooiregel (Master Out en meer) en oefen met de regels die jij speelt.',
       dt: 'Ook in donkere modus', db: 'Gebruik de app in donkere modus. Kies voor het bord DARTSLIVE-, PHOENIX- of steeltip-kleuren.',
-      p2t: 'Blijft op je apparaat', p2b: 'Instellingen en voortgang worden alleen op je apparaat bewaard. Geen account, geen advertenties, niets wordt verstuurd.',
+      p2t: 'Geen gegevens verzameld', p2b: 'De app verzamelt geen persoonsgegevens en houdt niet bij hoe je hem gebruikt. Geen account en geen advertenties, dus zorgeloos te gebruiken.',
       ctaTitle: 'Begin vandaag met oefenen',
       videoLabel: 'Demovideo van de app'
     },
@@ -145,7 +145,7 @@
       f4t: 'Lascia un buon punteggio', f4b: 'Quando non puoi chiudere in questo turno, esercitati a lasciare un punteggio più facile da chiudere al turno successivo.',
       rt: 'Scegli le regole', rb: 'Cambia il tipo di bull (Fat Bull / Separate Bull) e la regola di chiusura (Master Out e altre) e allenati con le regole che giochi.',
       dt: 'Anche in modalità scura', db: 'Usa l’app in modalità scura. Per il bersaglio scegli i colori DARTSLIVE, PHOENIX o steel.',
-      p2t: 'Resta sul tuo dispositivo', p2b: 'Impostazioni e progressi sono salvati solo sul tuo dispositivo. Nessun account, nessuna pubblicità, nessun dato inviato.',
+      p2t: 'Nessun dato raccolto', p2b: 'L’app non raccoglie dati personali e non traccia come la usi. Nessun account e nessuna pubblicità: usala in tutta tranquillità.',
       ctaTitle: 'Inizia ad allenarti oggi',
       videoLabel: 'Video dimostrativo dell’app'
     },
@@ -161,7 +161,7 @@
       f4t: 'Deixe uma boa sobra', f4b: 'Quando não der para fechar nesta rodada, pratique como deixar uma pontuação mais fácil de fechar na próxima.',
       rt: 'Escolha as regras', rb: 'Troque o tipo de bull (Fat Bull / Separate Bull) e a regra de saída (Master Out e outras) e pratique com as regras que você joga.',
       dt: 'Também no modo escuro', db: 'Use o app no modo escuro. Para o alvo, escolha as cores DARTSLIVE, PHOENIX ou steel.',
-      p2t: 'Fica no seu aparelho', p2b: 'Configurações e progresso ficam salvos só no seu aparelho. Sem conta, sem anúncios, nada é enviado.',
+      p2t: 'Nenhum dado coletado', p2b: 'O app não coleta dados pessoais nem registra como você o usa. Sem conta e sem anúncios, para usar com tranquilidade.',
       ctaTitle: 'Comece a praticar hoje',
       videoLabel: 'Vídeo de demonstração do app'
     },
@@ -177,7 +177,7 @@
       f4t: 'Deixar um bom resto', f4b: 'Quando não consegue fechar nesta jogada, pratique como deixar uma pontuação mais fácil de fechar na seguinte.',
       rt: 'Escolha as regras', rb: 'Mude o tipo de bull (Fat Bull / Separate Bull) e a regra de saída (Master Out e outras) e pratique com as regras que joga.',
       dt: 'Também no modo escuro', db: 'Use a app no modo escuro. Para o alvo, escolha as cores DARTSLIVE, PHOENIX ou steel.',
-      p2t: 'Fica no seu dispositivo', p2b: 'As definições e o progresso ficam guardados apenas no seu dispositivo. Sem conta, sem anúncios, nada é enviado.',
+      p2t: 'Nenhum dado recolhido', p2b: 'A app não recolhe dados pessoais nem regista como a utiliza. Sem conta e sem anúncios, para usar com toda a tranquilidade.',
       ctaTitle: 'Comece a praticar hoje',
       videoLabel: 'Vídeo de demonstração da app'
     },
@@ -193,7 +193,7 @@
       f4t: 'Zostaw dobrą resztę', f4b: 'Gdy w tej kolejce nie da się zamknąć, ćwicz zostawianie wyniku, który łatwiej zamknąć w następnej.',
       rt: 'Wybierz zasady', rb: 'Zmieniaj rodzaj bulla (Fat Bull / Separate Bull) i zasadę zamknięcia (Master Out i inne) i ćwicz według zasad, w które grasz.',
       dt: 'Także tryb ciemny', db: 'Korzystaj z aplikacji w trybie ciemnym. Dla tarczy wybierz kolory DARTSLIVE, PHOENIX lub stalowej.',
-      p2t: 'Zostaje na urządzeniu', p2b: 'Ustawienia i postępy są zapisywane tylko na urządzeniu. Bez konta, bez reklam, nic nie jest wysyłane.',
+      p2t: 'Bez zbierania danych', p2b: 'Aplikacja nie zbiera danych osobowych i nie śledzi, jak z niej korzystasz. Bez konta i bez reklam – możesz używać jej spokojnie.',
       ctaTitle: 'Zacznij ćwiczyć już dziś',
       videoLabel: 'Film demonstracyjny aplikacji'
     },
@@ -209,7 +209,7 @@
       f4t: '못 끝낼 때 남기는 법', f4b: '이번 라운드에 끝낼 수 없을 때, 다음 라운드에 끝내기 쉬운 점수를 남기는 방법도 연습할 수 있습니다.',
       rt: '규칙 선택', rb: '불의 종류(Fat Bull / Separate Bull)와 아웃 조건(Master Out 등)을 바꿔, 내가 치는 규칙에 맞춰 연습할 수 있습니다.',
       dt: '다크 모드 지원', db: '다크 모드로 표시할 수 있습니다. 다트보드는 DARTSLIVE·PHOENIX·하드 다트 배색 중에서 고를 수 있습니다.',
-      p2t: '기록은 기기 안에만', p2b: '설정과 학습 기록은 기기 안에만 저장됩니다. 계정 가입, 광고, 외부 전송이 없습니다.',
+      p2t: '정보 수집 없음', p2b: '개인정보나 이용 기록을 전혀 수집하지 않습니다. 계정 가입도 광고도 없어 안심하고 사용할 수 있습니다.',
       ctaTitle: '지금 바로 연습을 시작하세요',
       videoLabel: '앱 데모 영상'
     },
@@ -225,7 +225,7 @@
       f4t: 'Để lại số điểm tốt', f4b: 'Khi không thể kết thúc ở lượt này, hãy luyện cách để lại số điểm dễ kết thúc hơn ở lượt sau.',
       rt: 'Chọn luật chơi', rb: 'Đổi loại bull (Fat Bull / Separate Bull) và luật kết thúc (Master Out, v.v.) để luyện theo đúng luật bạn chơi.',
       dt: 'Có chế độ tối', db: 'Dùng ứng dụng ở chế độ tối. Chọn màu bảng DARTSLIVE, PHOENIX hoặc phi tiêu đầu thép.',
-      p2t: 'Chỉ lưu trên thiết bị', p2b: 'Cài đặt và tiến độ chỉ được lưu trên thiết bị của bạn. Không tài khoản, không quảng cáo, không gửi dữ liệu đi đâu.',
+      p2t: 'Không thu thập dữ liệu', p2b: 'Ứng dụng không thu thập dữ liệu cá nhân và không theo dõi cách bạn sử dụng. Không cần tài khoản, không quảng cáo, nên bạn có thể yên tâm sử dụng.',
       ctaTitle: 'Bắt đầu luyện tập ngay hôm nay',
       videoLabel: 'Video giới thiệu ứng dụng'
     },
@@ -241,7 +241,7 @@
       f4t: 'เหลือแต้มให้ปิดง่าย', f4b: 'เมื่อปิดเกมในรอบนี้ไม่ได้ ก็ฝึกวิธีเหลือคะแนนที่ปิดง่ายขึ้นในรอบถัดไปได้',
       rt: 'เลือกกติกาได้', rb: 'สลับประเภทบูล (Fat Bull / Separate Bull) และเงื่อนไขการปิด (Master Out ฯลฯ) เพื่อฝึกตามกติกาที่คุณเล่น',
       dt: 'รองรับโหมดมืด', db: 'ใช้แอปในโหมดมืดได้ เลือกสีกระดานแบบ DARTSLIVE, PHOENIX หรือดาร์ทหัวเหล็ก',
-      p2t: 'ข้อมูลอยู่ในเครื่องเท่านั้น', p2b: 'การตั้งค่าและความคืบหน้าบันทึกไว้ในอุปกรณ์ของคุณเท่านั้น ไม่ต้องสมัครบัญชี ไม่มีโฆษณา ไม่มีการส่งข้อมูลออกไป',
+      p2t: 'ไม่เก็บข้อมูลใดๆ', p2b: 'แอปไม่เก็บข้อมูลส่วนตัวและไม่ติดตามการใช้งานของคุณ ไม่ต้องสมัครบัญชีและไม่มีโฆษณา จึงใช้งานได้อย่างสบายใจ',
       ctaTitle: 'เริ่มฝึกกันเลยวันนี้',
       videoLabel: 'วิดีโอสาธิตแอป'
     }
