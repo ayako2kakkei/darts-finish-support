@@ -1,5 +1,14 @@
 # サポートサイト引き継ぎ
 
+## 2026-11-19 Issue #24 トップページをアプリ紹介のLPに
+
+- index.html をスマホ優先のLPに作り替え。ヒーロー（キャッチコピー・既存の各言語の紹介文・ストアボタン）、お手本再生の動画、機能5つ（言語別スクショ）、73言語／端末内保存、もう一度ストアボタン、既存のお問い合わせ。
+- 各言語の h1・紹介文は `data-locale-section`（check_site.py が数える）、お問い合わせは `data-locale-block` で切り替え。site.js は言語が決まるたびに `site:locale` イベントを送り、home.js が文言・スクショ・動画を差し替える。
+- LP の文言は home.js に15言語（初期の15ロケール）。残り58言語は英語にフォールバック。
+- スクショ: img/<言語>/0N.webp（App Store 用 iPhone 6.3 を幅600のWebPに。44言語＋en。ない言語は en）。動画: video/ja-learn.mp4・en-learn.mp4（シミュレータ録画、無音・ループ）。動きを減らす設定では静止画。
+- App Store: https://apps.apple.com/app/id6831528166 。Google Play は未公開なので無効表示＋「近日公開」。公開後は home.js / index.html のボタンをリンクに変える（パッケージ com.ayako2kakkei.dartsfinish）。
+- XServer へは index.html, style.css, site.js, home.js, img/, video/ のアップロードが必要。
+
 ## 2026-11-18 73ロケールへの拡張（未完了）
 
 - 新規26ロケールのページ、言語セレクター、no-script リンク、トップ／サポートのセクション、ナビゲーションラベル、RTL のペルシャ語対応を追加。CSS/JS 版クエリを `20261118-1` に変更。

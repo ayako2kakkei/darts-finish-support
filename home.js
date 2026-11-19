@@ -249,8 +249,8 @@
 
   // 言語ごとのスクリーンショット（img/<フォルダ>/0N.webp）。ないものは英語版を使う。
   const shotFolders = new Set(['ar', 'bn', 'ca', 'cs', 'da', 'de', 'el', 'es', 'fi', 'fr', 'gu', 'he', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'kn', 'ko', 'ml', 'mr', 'ms', 'nb', 'nl', 'or', 'pa', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'ta', 'te', 'th', 'tr', 'uk', 'ur', 'vi', 'zh-Hans', 'zh-Hant']);
-  // 動画（video/<名前>.mp4）。ないときは静止画のまま。
-  const videos = window.DARTS_FINISH_VIDEOS || {};
+  // 「覚える」のお手本再生の動画（video/<名前>.mp4）。日本語以外は英語版を使う。
+  const videos = { ja: 'ja-learn', en: 'en-learn' };
 
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 
@@ -273,10 +273,12 @@
 
     const video = document.querySelector('video[data-demo]');
     if (video) {
-      const name = videos[locale] || videos[folder] || videos.en;
-      const poster = `img/${folder}/${video.dataset.poster}.webp`;
-      video.poster = poster;
-      if (name && !reduceMotion.matches) {
+      const videoLocale = videos[locale] ? locale : 'en';
+      const name = videos[videoLocale];
+      // 動きを減らす設定のときは、その言語の静止画だけを見せる。
+      const posterFolder = reduceMotion.matches ? folder : videoLocale;
+      video.poster = `img/${posterFolder}/${video.dataset.poster}.webp`;
+      if (!reduceMotion.matches) {
         const src = `video/${name}.mp4`;
         if (video.getAttribute('src') !== src) {
           video.setAttribute('src', src);
