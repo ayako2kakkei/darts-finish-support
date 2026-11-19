@@ -247,6 +247,9 @@
     document.querySelectorAll('[data-locale-section]').forEach(section => {
       section.hidden = section.dataset.localeSection !== chosen;
     });
+    document.querySelectorAll('[data-locale-block]').forEach(block => {
+      block.hidden = block.dataset.localeBlock !== chosen;
+    });
     document.querySelectorAll('.language-select').forEach(select => { select.value = chosen; });
     const urls = {
       home: `index.html?lang=${encodeURIComponent(chosen)}`,
@@ -264,6 +267,7 @@
     document.querySelectorAll('[data-privacy-link]').forEach(link => { link.href = urls.privacy; });
     document.querySelectorAll('[data-support-link]').forEach(link => { link.href = urls.support; });
     updateConsentCopy(chosen);
+    document.dispatchEvent(new CustomEvent('site:locale', { detail: chosen }));
     return chosen;
   }
 
