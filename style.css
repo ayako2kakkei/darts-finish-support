@@ -81,6 +81,10 @@ a.store-button:hover{opacity:.9}
 .feature h3{font-size:1.3rem;margin:2px 0 6px}
 .feature-highlight{display:flex;gap:10px;align-items:flex-start;margin-top:14px;padding:12px 14px;border-radius:12px;background:var(--surface);border:2px solid var(--accent);font-weight:700}
 .feature-highlight svg{width:22px;height:22px;flex:none;margin-top:3px;color:var(--accent)}
+.rule-list{list-style:none;margin:14px 0 0;padding:0;display:grid;gap:8px}
+.rule-list li{padding:10px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface);display:flex;flex-direction:column;line-height:1.5}
+.rule-list strong{font-size:.98rem}
+.rule-list span{color:var(--muted);font-size:.88rem}
 .points{display:grid;gap:16px;padding:8px 20px 40px;max-width:600px;margin:auto}
 .point{padding:20px;border:1px solid var(--line);border-radius:16px;background:var(--surface)}
 .point svg{width:30px;height:30px;color:var(--accent)}
